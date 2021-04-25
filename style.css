@@ -120,7 +120,7 @@ aside {
 
 .widget {
     margin-top: 3.5rem;
-    border-top: 4px solid #404040;
+    border-top: 2px solid #404040;
     line-height: 1.6;
     font-size: 1.1rem;
     display: flex;
@@ -153,6 +153,7 @@ label {
     padding-bottom: 3px;
     display: block;
     font-size: 1rem;
+
 }
 
 button[type="button"] {
@@ -235,7 +236,8 @@ table {
 }
 
 .widget-title {
-    padding-top: 10px;
+    padding-top: 25px;
+font-weight:bold;
 }
 
 .links {
