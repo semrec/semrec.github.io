@@ -68,7 +68,7 @@ nav h1 {
 }
 
 main {
-    width: 70%;
+    width: 64%;
     display: inline-block;
 }
 
@@ -110,7 +110,7 @@ main {
 aside {
     display: inline-block;
     vertical-align: top;
-    margin-left: 3%;
+    margin-left: 9%;
     width: 25%;
 }
 
@@ -160,15 +160,16 @@ button[type="submit"] {
     line-height: 1;
     padding: 12px 18px;
     text-transform: uppercase;
+    cursor: none !important;
 }
 
-button[type="submit"]:hover {
+/* button[type="submit"]:hover {
     background-color: #dc6520;
-}
+} */
 
 #subscription .sub-btn {
     margin: 10px 0 0;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 #recent-posts li, #recent-comments li {
@@ -181,8 +182,8 @@ button[type="submit"]:hover {
 }
 
 .contactus {
-    font-size: 15px;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     width: 80%;
 }
 
@@ -193,7 +194,7 @@ button[type="submit"]:hover {
 table, tr, td {
     border: 1px solid gray;
     color: #424242;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 td {
@@ -223,22 +224,9 @@ table {
     background-color: black !important;
 }
 
-.wikidata_dataset {
-    width: 100%;
-}
-
-.wikidata_dataset td {
-    font-size: 16px;
-    color: black;
-}
-
 .table_header td {
     font-weight: bolder;
     background-color: lightgray;
-}
-
-.wikidata_dataset a {
-    text-decoration: none;
 }
 
 .widget-title {
@@ -257,7 +245,15 @@ table {
 }
 
 #volunteers ul li {
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1rem;
     width: 80%;
+}
+
+.card-title a {
+    text-decoration: none;
+}
+
+.card-body {
+    border: 1px solid lightgray;
 }
