@@ -262,3 +262,7 @@ p, li {
 .card {
     width: 150px !important;
 }
+
+.row-cols-1 {
+    margin-bottom: 50px;
+}
