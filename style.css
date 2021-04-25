@@ -1,0 +1,263 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: serif;
+    padding-top: 45px;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+nav h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+#main-header {
+    margin-top: 10px;
+}
+
+#logo img {
+    max-width: 210px;
+}
+
+#site-title {
+    margin-bottom: 0;
+    font-size: 4rem;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.25;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#site-title:hover {
+    color: #dc6520;
+}
+
+.color {
+    color: #dc6520;
+}
+
+#about-site {
+    color: #3c5349;
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#header-image-container {
+    margin-top: 50px;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+}
+
+#blog-header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#blog-header h1 {
+    font-size: 3.2rem;
+    color: #13222c;
+    font-family: sans-serif;
+}
+
+#blog-content {
+    display: inline-block;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    line-height: 1.4;
+    width: 100%;
+}
+
+#blog-content h4.h-style {
+    margin-bottom: 0;
+}
+
+#blog-content ol li p {
+    margin-top: 10px;
+}
+
+#blog-content .sources a {
+    text-decoration: none;
+}
+
+#blog-content .sources a:hover {
+    color: #000000;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+    width: 25%;
+}
+
+.widget {
+    margin-top: 3.5rem;
+    border-top: 4px solid black;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -2.8rem;
+}
+
+.widget a {
+    color: #dc6520;
+    text-decoration: none;
+}
+
+.widget a:hover {
+    color: #1a1a1a;
+}
+
+.widget li {
+    margin-bottom: 0.25rem;
+}
+
+.widget p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+label {
+    color: #3c5349;
+    padding-bottom: 3px;
+    display: block;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #1a1a1a;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    padding: 12px 18px;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    background-color: #dc6520;
+}
+
+#subscription .sub-btn {
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+
+#recent-posts li, #recent-comments li {
+    margin-bottom: 0.4rem;
+}
+
+#recent-comments .name {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.contactus {
+    font-size: 15px;
+    line-height: 1rem;
+    width: 80%;
+}
+
+.contactcolor {
+    color: #dc6520;
+}
+
+table, tr, td {
+    border: 1px solid gray;
+    color: #424242;
+    font-size: 0.9rem;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    margin-bottom: 2rem;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.tab-pane {
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+.inside_list {
+    margin-left: -20px;
+}
+
+.nav-link.active {
+    background-color: black !important;
+}
+
+.wikidata_dataset {
+    width: 100%;
+}
+
+.wikidata_dataset td {
+    font-size: 16px;
+    color: black;
+}
+
+.table_header td {
+    font-weight: bolder;
+    background-color: lightgray;
+}
+
+.wikidata_dataset a {
+    text-decoration: none;
+}
+
+.widget-title {
+    padding-top: 10px;
+}
+
+.links {
+    text-decoration: none;
+    font-style: italic;
+}
+
+#organizers ul li {
+    font-size: 15px;
+    line-height: 1rem;
+    width: 80%;
+}
+
+#volunteers ul li {
+    font-size: 15px;
+    line-height: 1rem;
+    width: 80%;
+}

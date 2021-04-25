@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Five tips for front-end web development </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>KRaCR Lab</h1>
+    </nav>
+    <header id="main-header">
+        <div>
+            <h1 id="site-title"><span class="color">S</span>em<span class="color">REC</span> <span class="color">T</span>ask</h1>
+            <p id="about-site"><span class="color">S</span>emantic <span class="color">R</span>easoning <span class="color">E</span>valuation <span class="color">C</span>hallenge</p>
+        </div>
+    </header>
+    <hr>
+
+    <div id="content">
+
+        <main>
+
+            <header id="blog-header">
+                <h1> Welcome to the TASK! </h1>
+            </header>
+
+            <article id="blog-content">
+                <h1>Task Description</h1>
+                <p>
+                    Despite the development of several ontology reasoning optimizations, the traditional methods either do not scale well or only cover a subset of OWL 2 language constructs. As an alternative, neuro-symbolic approaches are gaining significant attention. However, the existing methods still can not deal with very expressive ontology languages. To find and improve these performance bottlenecks of the reasoners, we ideally need several real-world ontologies that span the broad spectrum in terms of their size and expressivity. However, that is often not the case. One of the potential reasons for the ontology developers to not build ontologies that vary in terms of size and expressivity is the performance bottleneck of the reasoners. This challenge includes three tasks that aim to deal with this chicken and egg problem. 
+                </p>
+                <p>
+                    This challenge will be collocated with the <a class="links" href="https://iswc2021.semanticweb.org/">20th International Semantic Web Conference</a>.
+                </p>
+                <p>
+                    We have a <a class="links" href="https://groups.google.com/d/forum/sem-rec-challenge">discussion group</a> for the challenge where we share the latest news with the participants and discuss issues raised during the evaluation rounds.
+                </p>
+                <br>
+                <h1>Tasks</h1>
+                <ul>
+                    <li>
+                        <strong>Task-1 -</strong> Submit a real-world ontology that is a challenge in terms of the reasoning time or memory consumed during reasoning. We expect a detailed description of the ontology along with the analysis of the reasoning performance, the workarounds, if any, that were used to make the ontology less challenging (for example, dropping of a few axioms, redesigning the ontology, etc.), and the (potential) applications in which the ontology could be used. We will be evaluating the submitted ontologies based on the time and the memory consumed for a reasoning task, such as classification.
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Task-2 -</strong> Submit a description logic reasoner that makes use of traditional techniques such as tableau algorithms and completions rules. We will evaluate the performance and the scalability of the submitted systems on the datasets based on the time taken and memory consumed on the ontology classification task. This will provide an insight into the progress in the development of reasoners since the last reasoner evaluation challenge (ORE 2015). We expect a detailed description of the system, including evaluating the system on the provided datasets.
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Task-3 -</strong> Submit an ontology/RDFS reasoner that makes use of neural-symbolic techniques for reasoning and optimization. We will be evaluating two types of neuro-symbolic systems: (a) that approximate the entailment reasoning for addressing the time complexity problem, or (b) predicting missing and plausible axioms for completion.  We will evaluate the submitted systems on the test datasets based on the time taken, memory consumed, precision and recall. We expect a detailed description of the system, including an evaluation of the system on the provided datasets.
+                    </li>
+                </ul>
+                <br>
+                <h1>System Papers</h1>
+                <p>
+                    We encourage participants to submit a system paper. The paper should be no more than 10 pages long and formatted using the <a class="links" href="http://www.springer.com/lncs">LNCS Style</a>. System papers will be revised by 1-2 challenge organisers. System papers will be published as a volume of <a class="links" href="http://ceur-ws.org/">CEUR-WS</a>. By submitting a paper, the authors accept the CEUR-WS publishing rules.
+                </p>
+                <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Cite</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Docs</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Schema</button>
+                    </li>
+                  </ul> -->
+                  <!-- <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">@article{smarttask2020,
+                        title={{SeMantic AnsweR Type prediction task (SMART) at ISWC 2020 Semantic Web Challenge}}, <br>
+                        author={Nandana Mihindukulasooriya and Mohnish Dubey and Alfio Gliozzo and Jens Lehmann and Axel-Cyrille Ngonga Ngomo and Ricardo Usbeck}, <br>
+                        journal={CoRR/arXiv},<br>
+                        year={2020},<br>
+                        volume={abs/2012.00555},<br>
+                        url={https://arxiv.org/abs/2012.00555}<br>
+                        }</div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <ul class="inside_list">
+                            <li>
+                                Find the train and test splits at our github repo also.
+                            </li>
+                            <li>
+                                We're in the process of creating a one-click benchmarking process. For the time being, please contact us to report your results.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Every data item in the dataset consists of the following fields: <br> TBD</div>
+                  </div> -->
+                  <br>
+            </article>
+
+        </main>
+
+        <aside>
+            <section id="subscription" class="widget">
+                <button class="sub-btn" type="submit">DOWNLOAD DATA</button>
+            </section>
+
+            <section id="recent-posts" class="widget widget1">
+                <h4 class="widget-title">Important Dates</h4>
+                <table id="characteristics_table">
+                    <tr>
+                        <td>26 Apr, 2021</td>
+                        <td>Call for Challenge Participants</td>
+                    </tr>
+                    <tr>
+                        <td>15 May, 2021</td>
+                        <td>Release of ontologies for<br> Tasks 2 and 3</td>
+                    </tr>
+                    <tr>
+                        <td>28 Jun, 2021</td>
+                        <td>Submission of Systems</td>
+                    </tr>
+                    <tr>
+                        <td>15 Aug, 2021</td>
+                        <td>Notification of System Results</td>
+                    </tr>
+                    <tr>
+                        <td>24-28 Oct, 2021</td>
+                        <td>Challenge Presentations</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="recent-comments" class="widget">
+                <h4 class="widget-title">Contact Us</h4>
+                <p class="contactus"> If you have any problems working with the datasets or any suggestions related to this challenge, do not hesitate to contact us via the <a class="links" href="https://groups.google.com/d/forum/sem-rec-challenge">discussion group</a>.</p>
+                <!-- <br>
+                <p class="contactus"> Contact at <span class="contactcolor">011-26907455</span> or <span class="contactcolor">raghava.mutharaju@iiitd.ac.in</span> for anything regarding the dataset. </p> -->
+            </section>
+
+            <section id="organizers" class="widget">
+                <h4 class="widget-title">Organizers</h4>
+                <ul>
+                    <li><a href="http://raghavam.github.io/">Raghava Mutharaju</a>, IIIT-Delhi, India</li>
+                    <li><a href="https://gunjansingh1.github.io/">Gunjan Singh</a>, IIIT-Delhi, India</li>
+                    <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-kapanipa">Pavan Kapanipathi</a>, IBM T.J. Watson Research Center, USA</li>
+                </ul>
+            </section>
+
+            <section id="volunteers" class="widget">
+                <h4 class="widget-title">Volunteers</h4>
+                <ul>
+                    <li><a href="https://biswesh456.github.io/">Biswesh Mohapatra</a>, IIIT Delhi, India</li>
+                    <li>Ritam Biswas, IIIT Delhi, India</li>
+                    <li>Ashwat Kumar, IIIT Delhi, India</li>
+                </ul>
+            </section>
+        </aside>
+
+    </div>
+
+</body>
+</html>
