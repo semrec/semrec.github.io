@@ -136,7 +136,7 @@ aside {
 }
 
 .widget a:hover {
-    color: #1a1a1a;
+    color: #f45d06;
 }
 
 .widget li {
@@ -170,7 +170,7 @@ button[type="button"] {
 }
 
 /* button[type="button"]:hover {
-    background-color: #dc6520;
+    background-color: #f45d06;
 } */
 
 #subscription .sub-btn {
@@ -191,7 +191,7 @@ button[type="button"] {
     font-size: 1rem;
     line-height: 1.3rem;
     width: 80%;
- text-align: justify;
+    text-align: justify;
 }
 
 .contactcolor {
@@ -247,6 +247,11 @@ font-weight:bold;
     color:#ed5f0c;
 }
 
+.top-links {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color:#404040;
+}
 
 #organizers ul li {
     font-size: 15px;
