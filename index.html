@@ -59,7 +59,12 @@
                 <p>
                     Participants are requested to make a manuscript submission describing their entry. </p>
 <p>For Task 1, we expect a detailed description of the ontology along with the analysis of the reasoning performance, the workarounds, if any, that were used to make the ontology less challenging (for example, dropping of a few axioms, redesigning the ontology, etc.), and the (potential) applications in which the ontology could be used. </p>
-<p>For Tasks 2 and 3, we expect a detailed description of the system, including evaluating the system on the provided datasets. Having a link to the code repository in the paper is sufficient. Please make sure that there are clear instructions to build and run the code. In addition to that and in cases where it is not possible to share the code, it would be very helpful to us if the binary/executable is also made available to us (as supplementary material or as part of the code repository). We plan to evaluate the submitted systems on a Linux based GPU (for neuro-symbolic reasoners) and CPU (for traditional reasoners) servers. </p>
+<p>For Tasks 2 and 3, we expect a detailed description of the system, including evaluating the system on the provided datasets. </p>
+<ul>
+                    <li><p>For Task 2, having a link to the code repository in the paper is sufficient. Please make sure that there are clear instructions to build and run the code. In addition to that and in cases where it is not possible to share the code, it would be very helpful to us if the binary/executable is also made available to us (as supplementary material or as part of the code repository).
+ We plan to evaluate the submitted systems on a Linux based CPU server. </p></li>
+<li><p>For Task 3, we provide an <a href="https://github.com/semrec/semrec.github.io">eval.py</a> file for the subsumption task. This is provided only to give an idea of the kind of submission we expect from the participants. Participants are requested to make the changes mentioned in the file to evaluate it on their embeddings for the supported reasoning task (eg. class subsumption, class membership etc). We would require the class embeddings of your model along with a readme on the changes made on the evaluation file and how to use it. We plan to evaluate the submitted systems on a Linux based GPU server.</p></li>
+</ul>
 <p>The submissions can be either in the form of short papers of length 5 pages or long papers of length 10-12 pages. All the submissions must be in English and follow the 1-column CEUR-ART style <a class="links" href="https://www.overleaf.com/latex/templates/ceurart-template-for-submissions-to-semrec-challenge/qktzxsbyhsdp" target="_blank" rel="noreferrer">(overleaf template)</a>. The proceedings will be published as a volume of  <a class="links" href="http://ceur-ws.org/" target="_blank" rel="noreferrer">CEUR-WS</a>. Submissions should be made in the form of a pdf document on <a class="links" href=" https://easychair.org/conferences/?conf=semrec2021" target="_blank" rel="noreferrer"> EasyChair</a>.</p>
 
 
@@ -164,9 +169,17 @@
                     <button  class="sub-btn" type="button" disabled>Dataset DOWNLOAD</button>      </section>      
  <section id="recent-posts" class="widget1 ">
 <table id="dataset_table" style="font-weight: bold;font-size: 0.5rem;border: none;">
+<tr>              <b> For Task-2       </b>
+                    </tr>
                     <tr>               <td style="font-size:0.8rem" >ORE 2015 Challenge Dataset </td>         <td><a class="links2" href="https://doi.org/10.5281/zenodo.18578" target="_blank" rel="noreferrer"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18578.svg" alt="DOI"></a></td>
                     </tr>
                     <tr>             <td style="font-size:0.8rem" >OWL2Bench Dataset</td>           <td><a class="links2" href="https://doi.org/10.5281/zenodo.4764368" target="_blank" rel="noreferrer"> <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4282879.svg" alt="DOI"></a></td>
+                    </tr>                </table>
+					
+					<table id="dataset_table" style="font-weight: bold;font-size: 0.5rem;border: none;">
+                    <tr>             <b> For Task-3  </b>
+                    </tr>
+                    <tr>             <td><a class="links2" href="https://github.com/semrec/semrec.github.io/tree/main/Task%203%20_%20Datasets" target="_blank" rel="noreferrer"> DOWNLOAD LINK</a></td>
                     </tr>                </table>
             </section>
 
@@ -175,7 +188,7 @@
 
 
             <section id="recent-posts" class="widget ">
-<h4 class="widget-title">Important Dates</h4>
+<h4 class="widget-title">Important Dates </h4>
                 <table id="characteristics_table">
                     <tr>
                         <td>26 Apr, 2021</td>
@@ -183,10 +196,15 @@
                     </tr>
                     <tr>
                         <td>15 May, 2021</td>
-                        <td>Release of ontologies for<br> Tasks 2 and 3</td>
+                        <td>Release of ontologies for<br> Tasks 2</td>
+                    </tr>
+					<tr>
+                        <td>9 July, 2021</td>
+                        <td>Release of ontologies for<br> 3</td>
                     </tr>
                     <tr>
-                        <td>15 July, 2021</td>
+                        <td><strike>15 July, 2021</strike><br>22 July, 2021</td>
+					
                         <td>Submission of Systems/Ontologies</td>
                     </tr>
                     <tr>
