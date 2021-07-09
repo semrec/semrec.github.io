@@ -1,3 +1,2 @@
-# semrec.github.io
-Dataset Details
+# Dataset Details
 The submitted reasoning systems can vary in terms of their support for different OWL 2 profiles, subsets of Description Logics, reasoning tasks (such as classification, realization, or consistency checking for traditional reasoners, entailment, class membership, class subsumption, or axiom completion for neuro-symbolic reasoners). Ideally, the datasets must cover all these cases. However, due to the uncertainty with regard to the type of system submissions-- given the challenge is being organized for the first time, we are providing the OWL 2 Profile specific datasets only. If there are systems that partially support some profile then the participants can evaluate on part of the provided datasets.
