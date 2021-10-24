@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SemREC Evaluations </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <div>
+            <h1 id="site-title" ><span class="color">Sem</span>antic <span class="color">R</span>easoning <span class="color">E</span>valuation <span class="color">C</span>hallenge (<span class="color">SemREC</span>)</h1>
+            <p id="about-site"><a class="top-links" href="https://iswc2021.semanticweb.org/"  target="_blank" rel="noreferrer">20th International Semantic Web Conference (ISWC 2021)</a></p>
+        </div>
+    </header>
+
+    <hr style="color:#f45d06;">
+
+    <div id="content">
+
+        <main>
+            <article id="blog-content">
+
+
+<p>For tasks 1 and 2, all our evaluations ran on a server with an AMD Ryzen Threadripper 2990WX
+32-Core Processor and 128GB of RAM. The server ran on a 5.3.0-46-generic
+#38 18.04.1-Ubuntu SMP operating system. We use Java 1.8 and OWL API
+5.1.11 in the experiments. We set the heap space to 24GB.  The time-out was set to 30 minutes. We
+report the average time taken in 2 independent runs for each reasoning task.We run our benchmark on the reasoners HermiT 1.4.5.456, JFact 5.0.05, Konclude 0.7.0, Openllet 2.6.46
+, and Pellet 2.3.6. Evaluations scripts are available <a class="links" href="https://iswc2021.semanticweb.org/"  target="_blank" rel="noreferrer">here</a></p>
+
+<h3 id="ref">Task-1</h3>
+Time-taken(in seconds) by different reasoners on the submitted challenge ontologies
+                <table id="characteristics_table">
+				     <b><tr>
+                        <b><td> <b>Submitted Ontologies </b></td><td> <b>Expressivity </b></td><td> <b>HermiT</b></td><td> <b>Pellet</b></td><td> <b>Openllet</b></td><td> <b>JFact</b></td><td> <b>Konclude </b></td></b>
+                        
+                    </tr> </b>
+               
+					    <tr>
+                        <b><td>Genial</td><td>SHIQ(D)</td><td>0.2</td><td>0.3</td><td>0.47</td><td>4.99</td><td>0.032</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>clg_10</td><td>SOI(D)</td><td>0.2</td><td>0.1</td><td>0.16</td><td>0.21</td><td>0.002</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>clg_10e2</td><td>SOI(D)</td><td>0.2</td><td>0.1</td><td>0.1</td><td>0.90</td><td>0.006</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>clg_10e3</td><td>SOI(D)</td><td>265</td><td>11.75</td><td>9.8</td><td>86.70</td><td>0.137</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>clg_10e4</td><td>SOI(D)</td><td>TO</td><td>TO</td><td>TO</td><td>1541</td><td>1.2</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>clg_10e5</td><td>SOI(D)</td><td>TO</td><td>TO</td><td>TO</td><td>TO</td><td>10.8</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>clg_full</td><td>SOI(D)</td><td>ME</td><td>ME</td><td>ME</td><td>ME</td><td>TO</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>ExtruOnt</td><td>SIF</td><td>Error</td><td>TO</td><td>TO</td><td>Inconsistent</td><td>0.004</td></b>
+                        
+                    </tr>    <tr>
+                        <b><td>COSMO</td><td>SHOIN(D)</td><td>Error</td><td>TO</td><td>TO</td><td>LE</td><td>Inconsistent</td></b>
+                        
+                    </tr>    <tr>
+                        <b><td>uPheno</td><td>ALI+</td><td>Error</td><td>TO</td><td>TO</td><td>PE</td><td>Coudn't classify</td></b>
+                        
+                    </tr>    <tr>
+                        <b><td>variant1</td><td>SI</td><td>Error</td><td>Inconsistent</</td><td>Inconsistent</td><td>Inconsistent</td><td>2.41</td></b>
+                        
+                    </tr>    <tr>
+                        <b><td>variant2</</td><td>Expressivity</td><td>Error</td><td>Inconsistent</</td><td>Inconsistent</td><td>Inconsistent</td><td>0.78</td></b>
+                        
+                    </tr>    <tr>
+                        <b><td>variant3</</td><td>Expressivity</td><td>Error</td><td>TO</</td><td>253</td><td>TO</td><td>1.1</td></b>
+                        
+                    </tr>
+					<tr>
+                        <b><td>variant4</</td><td>Expressivity</td><td>Error</td><td>Inconsistent</td><td>Inconsistent</td><td>Inconsistent</td><td>2.72</td></b>
+                        
+                    </tr>
+					<tr>
+                        <b><td>variant5</td><td>Expressivity</td><td>Error</td><td>Inconsistent</td><td>Inconsistent</td><td>Inconsistent</td><td>2.43</td></b>
+                        
+                    </tr>
+                </table>
+				
+				
+<h3 id="ref">Task-2</h3>
+Time-taken(in seconds) and Memory Consumed (in GB) by Konclude version 0.7.0 on test (OWL2Bench) ontologies.
+                <table id="characteristics_table">
+				     <b><tr>
+                        <b><td> <b>Test Ontologies </b></td><td><b>Expressivity</b></td><td> <b>Time-taken (sec)</b></td><td> <b>Memory Consumed (GB)</b></td>
+                    </tr> </b>
+                    
+					    <tr>
+                        <td>OWL2DL-1</td><td>SROIQ(D)</td><td>37</td><td>4.5</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2DL-2</td><td>SROIQ(D)</td><td>243</td><td>11</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2DL-5</td><td>SROIQ(D)</td><td>Time-out</td><td>NA</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2DL-10</td><td>SROIQ(D)</td><td>Time-out</td><td>NA</td>
+                        
+                    </tr>
+                </table>
+<h3 id="ref">Task-3</h3>
+<table id="characteristics_table">
+Results of EmELvar on the test ontologies.
+                <table id="characteristics_table">
+				     <tr>
+                        <td> <b>Test Ontologies </b></td><td><b>Top1</b></td><td> <b>Top10</b></td><td> <b>Top100</b></td><td> <b>Median</b></td><td> <b>90th Percentile</b></td>
+                    </tr> 
+					    <tr>
+                        <td>OWL2EL-1</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td>
+                        
+                    </tr>                   
+					    <tr>
+                        <td>OWL2EL-2</td><td>0</td><td>0</td><td>0</td><td>35028</td><td>92741</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2EL-3</td><td>0.08</td><td>0.14</td><td>0.15</td><td>49430</td><td>247953</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2EL-4</td><td>0</td><td>0</td><td>0.4</td><td>92</td><td>227</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2EL-5</td><td>0</td><td>0.07</td><td>0.4</td><td>112.5</td><td>287</td>
+                        
+                    </tr>
+                </table>
+<br><hr style="color:#f45d06"><br>
+
+
+</body>
+</html>
