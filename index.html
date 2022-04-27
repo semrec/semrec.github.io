@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> SemREC @ ISWC 2021 </title>
+    <title> SemREC @ ISWC 2022 </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
@@ -9,10 +9,11 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
     <header id="main-header">
         <div>
             <h1 id="site-title" ><span class="color">Sem</span>antic <span class="color">R</span>easoning <span class="color">E</span>valuation <span class="color">C</span>hallenge (<span class="color">SemREC</span>)</h1>
-            <p id="about-site"><a class="top-links" href="https://iswc2021.semanticweb.org/"  target="_blank" rel="noreferrer">20th International Semantic Web Conference (ISWC 2021)</a></p>
+            <p id="about-site"><a class="top-links" href="https://iswc2022.semanticweb.org/"  target="_blank" rel="noreferrer">21st International Semantic Web Conference (ISWC 2022)</a></p>
         </div>
     </header>
 
@@ -26,113 +27,82 @@
 
 <h1>Challenge Description</h1>
                 <p>
-                    Despite the development of several ontology reasoning optimizations, the traditional methods either do not scale well or only cover a subset of OWL 2 language constructs. As an alternative, neuro-symbolic approaches are gaining significant attention. However, the existing methods still can not deal with very expressive ontology languages. To find and improve these performance bottlenecks of the reasoners, we ideally need several real-world ontologies that span the broad spectrum in terms of their size and expressivity. However, that is often not the case. One of the potential reasons for the ontology developers to not build ontologies that vary in terms of size and expressivity is the performance bottleneck of the reasoners. This challenge includes three tasks that aim to deal with this chicken and egg problem. 
-                </p>
-                
-                <br>
+                    Despite the development of several ontology reasoning
+optimizations, the traditional methods either do not scale well or only cover a
+subset of OWL 2 language constructs. As an alternative, neuro-symbolic
+approaches are gaining significant attention. However, the existing methods can
+not deal with very expressive ontology languages. Other than that, some
+SPARQL query engines also support reasoning, but their performance also is
+still limited. To find and improve these performance bottlenecks of the reasoners,
+we ideally need several real-world ontologies that span the broad spectrum in
+terms of their size and expressivity. However, that is often not the case. One of
+the potential reasons for the ontology developers to not build ontologies that vary
+in terms of size and expressivity is the performance bottleneck of the reasoners.
+SemREC aims to deal with this chicken and egg problem.
+ <br>
+The second edition of this challenge includes the following tasks-
+</p>
                 <ul>
                     <li>
-                        <strong>Task-1 -</strong> Submit a real-world ontology that is a challenge in terms of the reasoning time or memory consumed during reasoning. We will be evaluating the submitted ontologies based on the time and the memory consumed for a reasoning task, such as classification.
-                    </li>
+                        <strong>Task-1 -</strong> Ontologies. Submit a real-world ontology that is a challenge in
+terms of the reasoning time or memory consumed during reasoning. We
+expect a detailed description of the ontology along with the analysis of the
+reasoning performance, the workarounds if any, that were used to make
+the ontology less challenging (for example, dropping of a few axioms,
+redesigning the ontology, etc.), and the (potential) applications in which
+the ontology could be used. We will be evaluating the submitted
+ontologies based on the time consumed for a reasoning task, such as
+classification, and the memory consumed during reasoning.
+  </li>
                     <br>
                     <li>
-                        <strong>Task-2 -</strong> Submit a description logic reasoner that makes use of traditional techniques such as tableau algorithms and saturation rules. We will evaluate the performance and the scalability of the submitted systems on the datasets based on the time taken and memory consumed on the ontology classification task. This will provide an insight into the progress in the development of reasoners since the last reasoner evaluation challenge (ORE 2015).
-                    </li>
-                    <br>
-                    <li>
-                        <strong>Task-3 -</strong> Submit an ontology/RDFS reasoner that makes use of neuro-symbolic techniques for reasoning and optimization. We will be evaluating two types of neuro-symbolic systems: (a) that approximate the entailment reasoning for addressing the time complexity problem, or (b) predicting missing and plausible axioms for completion.  We will evaluate the submitted systems on the test datasets based on the time taken, memory consumed, precision and recall. <i>(Please check the <a class="links" href="#ref">references</a> for some samples of the work that fall in this category).</i>                    </li>
-                </ul>
+                        <strong>Task-2 -</strong> Systems
+<ul>
+                    <li> Ontology/RDFS Reasoners. Submit an ontology/RDFS reasoner
+that uses neural-symbolic techniques for reasoning and
+optimization. In terms of technique used, the submissions could fall
+under any of the below (or related) categories.
+<ol type="a">
+<li>Using learning-based techniques for performance
+optimization of traditional reasoning algorithms [6].</li>
+<li>Inductive reasoning techniques based on a subsymbolic
+representation of entities and relations learned through
+maximization of an objective function over valid triples [4, 5].</li>
+<li>Techniques that can learn the deductive reasoning aspect
+using the ontology axioms [1, 2, 3].</li>
+<li>Neural Multi-hop reasoners to deal with reasoning where
+multi-hop inference is required [7, 8].</li>
+</ol>Based on precision and recall, we will evaluate the submitted
+systems on the test datasets for scalability (performance evaluation
+on large and expressive ontologies) and transfer capabilities (ability
+to reason over ontologies from different domains). We expect a
+detailed description of the system, including an evaluation of the
+system on the provided datasets.</li>
+<li> SPARQL query engines that support entailment regimes such as
+RDF, RDFS, or OWL 2. We expect a detailed description of the
+system, including an evaluation of the system on the provided
+datasets.     </li> </li>
+                              </ul>
 <br>
 <p>
-                    This challenge will be collocated with the <a class="links" href="https://iswc2021.semanticweb.org/" target="_blank" rel="noreferrer">20th International Semantic Web Conference</a>.
+                    This challenge will be collocated with the <a class="links" href="https://iswc2022.semanticweb.org/" target="_blank" rel="noreferrer">21st International Semantic Web Conference</a>.
                 </p>
                 <p>
                     We have a <a class="links" href="https://groups.google.com/g/semrec" target="_blank" rel="noreferrer">discussion group</a> for the challenge where we share the latest news with the participants and discuss issues related to the evaluation rounds.
                 </p>
 <br>
 <hr style="color:#f45d06"><br>
-
-<h1 id="ref">Challenge Winners </h1>
-<ul>
-<li> The CaLiGraph Ontology as a Challenge for OWL Reasoners </li>
-<li> Query Answering and Scaling Extensions of Konclude  </li>
-<li> EmELvar : A Neuro-Symbolic Reasoner for the EL++ Description Logics </li>
- </ul>
-<br><hr style="color:#f45d06"><br>
-<h1 id="ref">Recorded Presentations</h1>
-<ul>
-<li><b>Task 1</b> <ul><li><a class="links" href="https://www.youtube.com/watch?v=iL3wL2e_PT4&amp;index=1" target="_blank" rel="noreferrer">A Reasoner Challenging Ontology for the Micro-electronics Domain</a> </li>
-<li><a class="links" href="https://www.youtube.com/watch?v=WfPSD0izQtw&amp;index=3&amp;t=2s" target="_blank" rel="noreferrer">The CaLiGraph Ontology as a Challenge for OWL Reasoners</a> </li>
-<li><a class="links" href="https://www.youtube.com/watch?v=G4Oqw9fOaVE&amp;index=2" target="_blank" rel="noreferrer">Reasoning Challenges on Gene Variants Data</a> </li>
-<li><a class="links" href="https://www.youtube.com/watch?v=4cliv4J0gI4&amp;index=4&amp;t=2s" target="_blank" rel="noreferrer">DACOC3</a> </li>
- </ul></li>
-<li><b>Task 2</b><ul><li><a class="links" href="https://www.youtube.com/watch?v=Qc39rxl7xhU&list=PLq7ht5u4Hm1dLv6m3SjibbSEw0icjuVbt&index=7&t=1s" target="_blank" rel="noreferrer">Query Answering and Scaling Extensions of Konclude </a> </li></ul></li>
-
-<li><b>Task 3</b><ul><li><a class="links" href="https://www.youtube.com/watch?v=qitdOrm7Yss&amp;index=5&amp;t=1s" target="_blank" rel="noreferrer">EmELvar : A Neuro-Symbolic Reasoner for the EL++ Description Logics</a></ul> </li>
-
-</ul>
-<hr style="color:#f45d06"><br>
-<h1 id="ref">Papers</h1>
-The proceedings of SemREC 2021 are published on CEUR at <a class="links" href="http://ceur-ws.org/Vol-3123/" target="_blank" rel="noreferrer">http://ceur-ws.org/Vol-3123/</a>. 
-<ul>
-<li><b>Task 1</b> <ul><li><a class="links" href="http://ceur-ws.org/Vol-3123/paper1.pdf" target="_blank" rel="noreferrer">A Reasoner Challenging Ontology for the Micro-electronics Domain</a><br><i>Frank P. Wawrzik, Andreas Lobe</i> </li>
-<li><a class="links" href="http://ceur-ws.org/Vol-3123/paper3.pdf" target="_blank" rel="noreferrer">The CaLiGraph Ontology as a Challenge for OWL Reasoners</a><br><i>Nicolas Heist, Heiko Paulheim</i></li>
-<li><a class="links" href="http://ceur-ws.org/Vol-3123/paper2.pdf" target="_blank" rel="noreferrer">Reasoning Challenges on Gene Variants Data</a><br><i>Asha Subramanian, Gopi Sumanth Bhaskar Boddeda, Manikanta Vikkurthi, Ikrormi Rungsung </i></li>
-<li><a class="links" href="http://ceur-ws.org/Vol-3123/paper4.pdf">DACOC3 - DBpedia Archivo Challenging Ontology Consistency Check Collection</a><br><i>Johannes Frey, Denis Streitmatter, Sebastian Hellmann</i> </li>
- </ul></li>
-<li><b>Task 2</b><ul><li><a class="links" href="http://ceur-ws.org/Vol-3123/paper5.pdf" target="_blank" rel="noreferrer">Query Answering and Scaling Extensions of Konclude</a><br> <i>Andreas Steigmiller, Birte Glimm, Thorsten Liebig </i></li></ul></li>
-
-<li><b>Task 3</b><ul><li><a class="links" href="http://ceur-ws.org/Vol-3123/paper6.pdf" target="_blank" rel="noreferrer">EmELvar : A Neuro-Symbolic Reasoner for the EL++ Description Logics</a><br><i> Biswesh Mohapatra, Sumit Bhatia, Raghava Mutharaju, G. Srinivasaraghavan</i></ul> </li>
-
-</ul>
-
-<br><hr style="color:#f45d06"><br>
-
-<h1 id="ref">Evaluations </h1>
-
- See the details of evaluations <a class="links" href="evaluation.html" target="_blank" rel="noreferrer">here</a>.
-
-<br><hr style="color:#f45d06"><br>
-
-
-<h1 id="ref">Schedule</h1>
-See full ISWC'21 program <a class="links" href="https://iswc2021.semanticweb.org/final-programme" target="_blank" rel="noreferrer">here</a>
-<br>
-<br><b>SemREC Presentations: <br><br>October 27, Session 4D (EDT (US): 10:20-11:20. CET (EU): 16:20-17:20. CST (China): 22:20-23:20):</b></ul>
-<ul>
- <li> Challenge overview - 10 min. live.</li>
- <li> A Reasoner-Challenging Ontology from the Microelectronics Domain (presented by Frank Wawrzik). 5 min recorded + 2 min live Q&A </li>
- <li> Reasoning Challenges on Gene Variants Data (presented by Asha Subramanian).5 min recorded + 2 min live Q&A </li>
- <li> CaLiGraph Ontology (presented by Nicolas Heist). 5 min recorded + 2 min live Q&A </li>
- <li> DACOC3	(presented by Johannes Frey). 5 min recorded + 2 min live Q&A </li>
- <li> EmELvar	(presented by Biswesh Mohapatra). 5 min recorded + 2 min live Q&A </li>
- <li> Query Answering and Scaling Extensions of Konclude	(presented by Andreas Steigmiller).5 min recorded + 2 min live Q&A </li>
- <li> Wrap-up - 5 min live.</li>
- </ul>
-<br><b>SemREC Poster Sessions:</b> <br><br>
-SemREC will be present during the ISWC Posters & Demos/Social sessions. We will use wonder.me together with the other ISWC Semantic Web challenges.
-<ul>
- <li>Oct 26, 18:50-19:20 CET</li>
- <li>Oct 27, 18:30-19:10 CET</li>
- <li>Oct 28, 15:00-15:30 CET</li>
- </ul>
- <b>Posters</b><br>
-<ul>
- <li> A Reasoner-Challenging Ontology from the Microelectronics Domain</li>
- <li> Reasoning Challenges on Gene Variants Data</li>
- <li> CaLiGraph Ontology</li>
- <li> EmELvar</li>
- </ul>
- 
- </ul>
-<br><hr style="color:#f45d06"><br>
-
-
 <h1>Dataset Details</h1>
-<p> The submitted reasoning systems can vary in terms of their support for different OWL 2 profiles, subsets of Description Logics, reasoning tasks 
-(such as classification, realization, or consistency checking for traditional reasoners, entailment, class membership, class subsumption, or axiom 
-completion for neuro-symbolic reasoners).  Ideally, the datasets must cover all these cases. However, due to the uncertainty  
-with regard to the type of system submissions-- given the challenge is being organized for the first time, we are providing the OWL 2 Profile specific datasets only. If there are systems that partially support some profile then the participants can evaluate on part of the provided datasets.</p>
+<p> We will use the following datasets for evaluating the reasoners submitted to
+Tasks 2 and 3.
+<ol>
+<li><a class="links" href="https://doi.org/10.5281/zenodo.18578" target="_blank" rel="noreferrer">ORE 2015 dataset</a>.</li>
+<li>Ontologies of varying sizes and complexities generated using our
+benchmark, <a class="links" href="https://github.com/kracr/owl2bench" target="_blank" rel="noreferrer">OWL2Bench</a>. It supports
+all the OWL 2 profiles.</li>
+<li>Datasets submitted to Task-1.</li>
+</ol>
+</p>
 <br>
 <hr style="color:#f45d06"><br>
 
@@ -140,16 +110,31 @@ with regard to the type of system submissions-- given the challenge is being org
 
 <h1>Submission Details</h1>
                 <p>
-                    Participants are requested to make a manuscript submission describing their entry. </p>
-<p>For Task 1, we expect a detailed description of the ontology along with the analysis of the reasoning performance, the workarounds, if any, that were used to make the ontology less challenging (for example, dropping of a few axioms, redesigning the ontology, etc.), and the (potential) applications in which the ontology could be used. </p>
-<p>For Tasks 2 and 3, we expect a detailed description of the system, including evaluating the system on the provided datasets. </p>
+                    We have not yet categorized the tasks based on different profiles, reasoning
+techniques, or reasoning tasks (entailment, class subsumption, class
+membership, type prediction, and link prediction). We will decide on this aspect
+based on the submissions we get.
 <ul>
-                    <li><p>For Task 2, having a link to the code repository in the paper is sufficient. Please make sure that there are clear instructions to build and run the code. In addition to that and especially in cases where it is not possible to share the code, it would be very helpful to us if the binary/executable is also made available to us (as supplementary material or as part of the code repository).
- We plan to evaluate the submitted systems on a Linux-based CPU server. </p></li>
-<li><p>For Task 3, we provide an <a  class="links" href="https://github.com/semrec/semrec.github.io" target="_blank" rel="noreferrer">eval.py</a> file for the subsumption task. This is provided only to give an idea of the kind of submission we expect from the participants. Participants are requested to make the changes mentioned in the file to evaluate it on their embeddings for the supported reasoning task (e.g., class subsumption, class membership, etc). We would require the class embeddings of your model along with a readme on the changes made on the evaluation file and how to use it. We plan to evaluate the submitted systems on a Linux-based GPU server.</p></li>
-</ul><p>The submissions can be either in the form of short papers of length 5 pages or long papers of length 10-12 pages. All the submissions must be in English and follow the 1-column CEUR-ART style <a class="links" href="https://www.overleaf.com/latex/templates/ceurart-template-for-submissions-to-semrec-challenge/qktzxsbyhsdp" target="_blank" rel="noreferrer">(overleaf template)</a>. The proceedings will be published as a volume of  <a class="links" href="http://ceur-ws.org/" target="_blank" rel="noreferrer">CEUR-WS</a>. Submissions should be made in the form of a pdf document on <a class="links" href=" https://easychair.org/conferences/?conf=semrec2021" target="_blank" rel="noreferrer"> EasyChair</a>.</p>
-
-
+<li>Task-1.
+To generate the leaderboard, the submitted ontologies will be run on some
+of the traditional description logic reasoners such as Konclude1, ELK2, and Openllet3
+. We will use reasoning (classification) time and the memory consumed as the primary metrics. We will use a timeout value of 6 hours,
+and the limit on the memory will be 96 GB. </li>
+<li>Task-2.
+<ul>
+<li>To generate the leaderboard, the neural-symbolic reasoners will be
+provided with training, validation, and test datasets. The participants will
+include all the results in the submitted papers and provide their trained
+models/embeddings. We will further be evaluating the provided models on
+another small test dataset. The evaluation metrics will be reasoning time,
+memory consumed, precision and recall.</li>
+<li>To generate the leaderboard, the SPARQL query engines will be
+evaluated for the scalability aspect in terms of load time, query response
+time, and memory consumed. We will provide the datasets, and the
+participants will discuss their evaluations in the submitted paper. For fair
+evaluation, we will be re-evaluating the submitted systems on our
+hardware.</li></ul></li>
+</ul>
 
                 </p> <br><hr style="color:#f45d06"><br>
 
@@ -190,8 +175,7 @@ with regard to the type of system submissions-- given the challenge is being org
                 </div>
               </div>
 <br>
-            <hr style="color:#f45d06"><br>
-
+            
 
 
 <!--
@@ -229,14 +213,14 @@ with regard to the type of system submissions-- given the challenge is being org
 <hr style="color:#f45d06"><br>-->
 
 
-<h1 id="ref">PC Members</h1>
+<!--<h1 id="ref">PC Members</h1>
 <ul>
  <li>Ankur Padia, Philips Research, USA </li>
 <li> Monika Jain, IIIT-Delhi, India </li>
 <li>Sudip Mittal, Mississippi State University, USA</li>
 <li>Cogan Shimizu, Kansas State University, USA  </li>
 <li> Monireh Ebrahimi, IBM Watson, USA </li>
-<!--<li> Lu Zhou, Kansas State University, USA </li>-->
+<!--<li> Lu Zhou, Kansas State University, USA </li>
 <li> Sumit Bhatia, Adobe Inc., India </li>
 <li> Nandana Mihindukulasooriya, IBM Research, USA</li>
 <li> Manas Gaur, University of South Carolina, USA</li>
@@ -244,17 +228,38 @@ with regard to the type of system submissions-- given the challenge is being org
  
  
 <li> Fariz Darari, University of Indonesia</li>
-<li> Srinivas Ravishankar, IBM Research, USA </li>
+<li> Srinivas Ravishankar, IBM Research, USA </li>-->
 
 </ul>
 <hr style="color:#f45d06"><br>
 <h1 id="ref">References</h1>
 <ol>
-  <li>Jiaoyan Chen, Pan Hu, Ernesto Jimenez-Ruiz, Ole Magnus Holter, Denvar Antonyrajah, Ian Horrocks. <b><a class="links" href="https://link.springer.com/article/10.1007/s10994-021-05997-6" target="_blank" rel="noreferrer">OWL2Vec*: embedding of OWL ontologies. </a></b>Mach Learn (2021).</li>
+ <!-- <li>Jiaoyan Chen, Pan Hu, Ernesto Jimenez-Ruiz, Ole Magnus Holter, Denvar Antonyrajah, Ian Horrocks. <b><a class="links" href="https://link.springer.com/article/10.1007/s10994-021-05997-6" target="_blank" rel="noreferrer">OWL2Vec*: embedding of OWL ontologies. </a></b>Mach Learn (2021).</li>
   <li>Sutapa Mondal, Sumit Bhatia, Raghava Mutharaju. <b><a class="links" href="http://ceur-ws.org/Vol-2846/paper19.pdf" target="_blank" rel="noreferrer">EmEL++: Embeddings for EL++ Description Logic</a></b>. Spring Symposium on Combining Machine Learning and Knowledge Engineering (AAAI-MAKE), 2021. </li>
   <li>Gunjan Singh, Sutapa Mondal, Sumit Bhatia, Raghava Mutharaju. <b><a class="links" href="http://ceur-ws.org/Vol-2846/paper19.pdf" target="_blank" rel="noreferrer">Neuro-Symbolic Techniques for Description Logic Reasoning</a></b>. Student Abstract, Association for the Advancement of Artificial Intelligence (AAAI), 2020. </li>
   <li>Monireh Ebrahimi, Aaron Eberhart, Federico Bianchi, Pascal Hitzler. <b> <a class="links" href="https://link.springer.com/article/10.1007/s10489-020-02165-6" target="_blank" rel="noreferrer">Towards bridging the neuro-symbolic gap: deep deductive reasoners</a> </b>. Applied Intelligence, 2021. </li>
   <li>Claudia dAmato, Andrea G. B. Tettamanzi, Tran Duc Minh. <b><a class="links" href="https://www.researchgate.net/publication/309685972_Evolutionary_Discovery_of_Multi-relational_Association_Rules_from_Ontological_Knowledge_Bases" target="_blank" rel="noreferrer">Evolutionary Discovery of Multi-relational Association Rules from Ontological Knowledge Bases</a> </b>. European Knowledge Acquisition Workshop (EKAW), 2016.</li>
+-->
+<li>M. Ebrahimi, M.K. Sarker, F. Bianchi, N. Xie, D. Doran, and P. Hitzler, Reasoning over RDF
+knowledge bases using deep learning, arXiv preprint, arXiv:1811.04132, 2018.</li>
+<li>P. Hohenecker and T. Lukasiewicz, Deep learning for ontology reasoning, CoRR,
+arXiv:1705.10342, 2017.</li>
+<li>B. Makni and J. Hendler, Deep learning for noise-tolerant RDFS reasoning, SemanticWeb
+10(5) (2019), 823–862.</li>
+<li>J. Chen, P. Hu, E. Jimenez-Ruiz, O. M. Holter, D. Antonyrajah, and I. Horrocks, OWL2Vec*:
+embedding of OWL ontologies. Machine Learning, 2021.</li>
+<li>S. Mondal, S. Bhatia, and R. Mutharaju. EmEL++: Embeddings for EL++ Description Logic.
+Spring Symposium on Combining Machine Learning and Knowledge Engineering (AAAI-MAKE),
+2021.</li>
+<li>R. Mehri, V. Haarslev, and H. R. Chinaei, A machine learning approach for optimizing
+heuristic decision‐making in Web Ontology Language reasoners. Computational Intelligence.
+37. 10.1111/coin.12404, 2020.</li>
+<li>B. Peng, Z. Lu, H. Li, and K.-F.Wong, Towards neural network-based reasoning. arXiv
+preprint arXiv:1508.05508, 2015.</li>
+<li>X. V. Lin, R. Socher, and C. Xiong, Multi-Hop Knowledge Graph Reasoning with Reward
+Shaping. Proceedings of the 2018 Conference on Empirical Methods in Natural Language
+Processing, pages 3243–3253, 2018.</li>
+
 </ol><br>
 <hr style="color:#f45d06"><br>
         </main>
@@ -263,10 +268,12 @@ with regard to the type of system submissions-- given the challenge is being org
 
 
 <aside>
-        
 <section id="recent-posts" class="widget1 " >   
-                    <button  class="sub-btn" type="button" disabled>Dataset DOWNLOAD</button>      </section>      
- <section id="recent-posts" class="widget1 ">
+                    <a style="color:red" href="https://semrec.github.io/SemREC2021.html"  target="_blank" rel="noreferrer"> Previous Edition -  SemREC 2021</a>     </section>   <br> <br> 
+					<hr style="color:#f45d06">
+<section id="recent-posts" class="widget1 " >   
+                    <button  class="sub-btn" type="button" disabled>Dataset DOWNLOAD</button>      </section>   <br>   
+ <!--<section id="recent-posts" class="widget1 ">
 <table id="dataset_table" style="font-weight: bold;font-size: 0.5rem;border: none;">
 <tr>              <b> For Task-2       </b>
                     </tr>
@@ -280,7 +287,7 @@ with regard to the type of system submissions-- given the challenge is being org
                     </tr>
                     <tr>             <td><a class="links2" href="https://github.com/semrec/semrec.github.io/tree/main/Task%203%20_%20Datasets" target="_blank" rel="noreferrer"> DOWNLOAD LINK</a></td>
                     </tr>                </table>
-            </section>
+            </section>-->
 
 
 
@@ -290,33 +297,25 @@ with regard to the type of system submissions-- given the challenge is being org
 <h5 class="widget-title">Important Dates (23:59 AOE)</h5>
                 <table id="characteristics_table">
                     <tr>
-                        <td><strike>26 Apr, 2021</strike></td>
-                        <td><strike>Call for Challenge Participants</strike></td>
+                        <td>28 Apr, 2022</td>
+                        <td>Call for Challenge Participants</td>
                     </tr>
                     <tr>
-                        <td><strike>15 May, 2021<strike></td>
-                        <td><strike>Release of ontologies for<br> Task 2</strike></td>
+                        <td>18 May, 2022</td>
+                        <td>Release of ontologies for<br> Task 2</td>
                     </tr>
 					<tr>
-                        <td><strike>9 July, 2021</td>
-                        <td><strike>Release of ontologies for<br> Task 3</strike></td>
+                        <td>14 July, 2022</td>
+                        <td>Release of ontologies for<br> Task 3</td>
                     </tr>
                     <tr>
-                        <td><strike>20 Sept, 2021</td>
+                        <td>15 Aug, 2022</td>
 					
-                        <td><strike>Submission of Systems/Ontologies</strike></td>
+                        <td>Submission of Systems/Ontologies</td>
                     </tr>
                     <tr>
-                        <td>25 Oct, 2021</td>
-                        <td>Notification of Results</td>
-                    </tr>
-                    <tr>
-                        <td>27 Oct, 2021</td>
-                        <td>Challenge Presentations</td>
-                    </tr>
-					<tr>
-                        <td>22 November, 2021</td>
-                        <td>Final version system papers <br> (via easychair) </td>
+                        <td>23 -27 Oct, 2022</td>
+                        <td>Notification of Results and Challenge Presentations</td>
                     </tr>
                 </table>
             </section>
