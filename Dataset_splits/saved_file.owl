@@ -1,0 +1,4857 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <owlapi:ontology:ont0>
+
+
+ObjectProperty: <owlapi:ontology:ont0#op0>
+
+    
+ObjectProperty: <owlapi:ontology:ont0#op1>
+
+    
+Class: <owlapi:ontology:ont0#c0>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c603>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c260>
+    
+    
+Class: <owlapi:ontology:ont0#c100>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c625>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c101>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c322>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c322>
+    
+    
+Class: <owlapi:ontology:ont0#c102>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c109>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c103>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c235>
+    
+    
+Class: <owlapi:ontology:ont0#c104>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c105>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c276>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c106>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c78>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c130>
+    
+    
+Class: <owlapi:ontology:ont0#c107>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c1> or <owlapi:ontology:ont0#c284> or <owlapi:ontology:ont0#c285> or <owlapi:ontology:ont0#c310> or <owlapi:ontology:ont0#c438> or <owlapi:ontology:ont0#c5> or <owlapi:ontology:ont0#c541> or <owlapi:ontology:ont0#c542>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c108>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c93>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c559>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c559>
+    
+    
+Class: <owlapi:ontology:ont0#c109>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c102> or <owlapi:ontology:ont0#c433>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c85>
+    
+    
+Class: <owlapi:ontology:ont0#c10>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c110>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c215>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c111>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c245> or <owlapi:ontology:ont0#c29> or <owlapi:ontology:ont0#c405>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c220>
+    
+    
+Class: <owlapi:ontology:ont0#c112>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c280>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c113>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c142> or <owlapi:ontology:ont0#c21> or <owlapi:ontology:ont0#c339> or <owlapi:ontology:ont0#c340> or <owlapi:ontology:ont0#c35> or <owlapi:ontology:ont0#c366> or <owlapi:ontology:ont0#c37> or <owlapi:ontology:ont0#c382> or <owlapi:ontology:ont0#c387> or <owlapi:ontology:ont0#c407> or <owlapi:ontology:ont0#c422> or <owlapi:ontology:ont0#c429> or <owlapi:ontology:ont0#c522>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c85>
+    
+    
+Class: <owlapi:ontology:ont0#c114>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c274> or <owlapi:ontology:ont0#c446> or <owlapi:ontology:ont0#c465> or <owlapi:ontology:ont0#c488> or <owlapi:ontology:ont0#c491> or <owlapi:ontology:ont0#c514> or <owlapi:ontology:ont0#c587> or <owlapi:ontology:ont0#c614>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c220>
+    
+    
+Class: <owlapi:ontology:ont0#c115>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c116>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c117>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c143>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c402>
+    
+    
+Class: <owlapi:ontology:ont0#c118>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c119>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c38>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c11>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c165>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c120>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c625>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c121>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c134>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c122>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c123>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c124>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c125>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c126>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c127>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c130>
+    
+    
+Class: <owlapi:ontology:ont0#c128>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c130>
+    
+    
+Class: <owlapi:ontology:ont0#c129>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c130>
+    
+    
+Class: <owlapi:ontology:ont0#c12>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c355>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c130>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c131>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c132>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c3>
+    
+    
+Class: <owlapi:ontology:ont0#c132>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c133>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c134>
+    
+    
+Class: <owlapi:ontology:ont0#c134>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c183>
+    
+    
+Class: <owlapi:ontology:ont0#c135>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c115> or <owlapi:ontology:ont0#c155> or <owlapi:ontology:ont0#c159> or <owlapi:ontology:ont0#c181> or <owlapi:ontology:ont0#c216> or <owlapi:ontology:ont0#c220> or <owlapi:ontology:ont0#c252> or <owlapi:ontology:ont0#c261> or <owlapi:ontology:ont0#c277> or <owlapi:ontology:ont0#c342> or <owlapi:ontology:ont0#c368> or <owlapi:ontology:ont0#c383> or <owlapi:ontology:ont0#c394> or <owlapi:ontology:ont0#c426> or <owlapi:ontology:ont0#c427> or <owlapi:ontology:ont0#c439> or <owlapi:ontology:ont0#c440> or <owlapi:ontology:ont0#c455> or <owlapi:ontology:ont0#c456> or <owlapi:ontology:ont0#c504> or <owlapi:ontology:ont0#c509> or <owlapi:ontology:ont0#c517> or <owlapi:ontology:ont0#c536> or <owlapi:ontology:ont0#c538> or <owlapi:ontology:ont0#c550> or <owlapi:ontology:ont0#c555> or <owlapi:ontology:ont0#c576> or <owlapi:ontology:ont0#c577> or <owlapi:ontology:ont0#c595> or <owlapi:ontology:ont0#c623> or <owlapi:ontology:ont0#c71> or <owlapi:ontology:ont0#c73> or <owlapi:ontology:ont0#c85> or <owlapi:ontology:ont0#c92>
+    
+    
+Class: <owlapi:ontology:ont0#c136>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c384> or <owlapi:ontology:ont0#c561>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c137>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c272> or <owlapi:ontology:ont0#c551> or <owlapi:ontology:ont0#c619>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c96>
+    
+    
+Class: <owlapi:ontology:ont0#c138>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c214>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c139>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>,
+        <owlapi:ontology:ont0#c144> or <owlapi:ontology:ont0#c211> or <owlapi:ontology:ont0#c230> or <owlapi:ontology:ont0#c239> or <owlapi:ontology:ont0#c263> or <owlapi:ontology:ont0#c267> or <owlapi:ontology:ont0#c334> or <owlapi:ontology:ont0#c335> or <owlapi:ontology:ont0#c338> or <owlapi:ontology:ont0#c346> or <owlapi:ontology:ont0#c360> or <owlapi:ontology:ont0#c361> or <owlapi:ontology:ont0#c367> or <owlapi:ontology:ont0#c436> or <owlapi:ontology:ont0#c437> or <owlapi:ontology:ont0#c444> or <owlapi:ontology:ont0#c574> or <owlapi:ontology:ont0#c75>
+    
+    
+Class: <owlapi:ontology:ont0#c13>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c164>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c125>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c130>
+    
+    
+Class: <owlapi:ontology:ont0#c140>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c234> or <owlapi:ontology:ont0#c531> or <owlapi:ontology:ont0#c81>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c141>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c221>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c161>
+    
+    
+Class: <owlapi:ontology:ont0#c142>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c143>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c254>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c253>, <owlapi:ontology:ont0#c67>
+    
+    
+Class: <owlapi:ontology:ont0#c144>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c145>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c157>
+    
+    
+Class: <owlapi:ontology:ont0#c146>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c350>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c147>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c406>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c406>
+    
+    
+Class: <owlapi:ontology:ont0#c148>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c149>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c48>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c14>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c445>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c150>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c153>
+    
+    
+Class: <owlapi:ontology:ont0#c151>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c153>
+    
+    
+Class: <owlapi:ontology:ont0#c152>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c153>
+    
+    
+Class: <owlapi:ontology:ont0#c153>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c156>
+    
+    
+Class: <owlapi:ontology:ont0#c154>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c161>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c415>
+    
+    
+Class: <owlapi:ontology:ont0#c155>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c235>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c156>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c178>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c273>
+    
+    
+Class: <owlapi:ontology:ont0#c157>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c178>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c273>
+    
+    
+Class: <owlapi:ontology:ont0#c158>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c178>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c273>
+    
+    
+Class: <owlapi:ontology:ont0#c159>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c107> or <owlapi:ontology:ont0#c117> or <owlapi:ontology:ont0#c136> or <owlapi:ontology:ont0#c139> or <owlapi:ontology:ont0#c140> or <owlapi:ontology:ont0#c18> or <owlapi:ontology:ont0#c222> or <owlapi:ontology:ont0#c28> or <owlapi:ontology:ont0#c30> or <owlapi:ontology:ont0#c49> or <owlapi:ontology:ont0#c51> or <owlapi:ontology:ont0#c91> or <owlapi:ontology:ont0#c93> or <owlapi:ontology:ont0#c96>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>
+    
+    
+Class: <owlapi:ontology:ont0#c15>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c206>
+    
+    
+Class: <owlapi:ontology:ont0#c160>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c15> or <owlapi:ontology:ont0#c229> or <owlapi:ontology:ont0#c241> or <owlapi:ontology:ont0#c296> or <owlapi:ontology:ont0#c305> or <owlapi:ontology:ont0#c314> or <owlapi:ontology:ont0#c385> or <owlapi:ontology:ont0#c386> or <owlapi:ontology:ont0#c419> or <owlapi:ontology:ont0#c421> or <owlapi:ontology:ont0#c424> or <owlapi:ontology:ont0#c435> or <owlapi:ontology:ont0#c478> or <owlapi:ontology:ont0#c515> or <owlapi:ontology:ont0#c530> or <owlapi:ontology:ont0#c77>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c261>
+    
+    
+Class: <owlapi:ontology:ont0#c161>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c519>
+    
+    
+Class: <owlapi:ontology:ont0#c162>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c163>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c100> or <owlapi:ontology:ont0#c120> or <owlapi:ontology:ont0#c148> or <owlapi:ontology:ont0#c162> or <owlapi:ontology:ont0#c173> or <owlapi:ontology:ont0#c251> or <owlapi:ontology:ont0#c348> or <owlapi:ontology:ont0#c375> or <owlapi:ontology:ont0#c401> or <owlapi:ontology:ont0#c423> or <owlapi:ontology:ont0#c573> or <owlapi:ontology:ont0#c6> or <owlapi:ontology:ont0#c83>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>
+    
+    
+Class: <owlapi:ontology:ont0#c164>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c13> or <owlapi:ontology:ont0#c498> or <owlapi:ontology:ont0#c503>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>
+    
+    
+Class: <owlapi:ontology:ont0#c165>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c11> or <owlapi:ontology:ont0#c175> or <owlapi:ontology:ont0#c194> or <owlapi:ontology:ont0#c231> or <owlapi:ontology:ont0#c40> or <owlapi:ontology:ont0#c432> or <owlapi:ontology:ont0#c512> or <owlapi:ontology:ont0#c525>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c261>
+    
+    
+Class: <owlapi:ontology:ont0#c166>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c0> or <owlapi:ontology:ont0#c106> or <owlapi:ontology:ont0#c163> or <owlapi:ontology:ont0#c164> or <owlapi:ontology:ont0#c188> or <owlapi:ontology:ont0#c192> or <owlapi:ontology:ont0#c201> or <owlapi:ontology:ont0#c246> or <owlapi:ontology:ont0#c249> or <owlapi:ontology:ont0#c270> or <owlapi:ontology:ont0#c275> or <owlapi:ontology:ont0#c343> or <owlapi:ontology:ont0#c374> or <owlapi:ontology:ont0#c409> or <owlapi:ontology:ont0#c412> or <owlapi:ontology:ont0#c413> or <owlapi:ontology:ont0#c42> or <owlapi:ontology:ont0#c445> or <owlapi:ontology:ont0#c508> or <owlapi:ontology:ont0#c511> or <owlapi:ontology:ont0#c539> or <owlapi:ontology:ont0#c552> or <owlapi:ontology:ont0#c554> or <owlapi:ontology:ont0#c596> or <owlapi:ontology:ont0#c76>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c261>
+    
+    
+Class: <owlapi:ontology:ont0#c167>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c112> or <owlapi:ontology:ont0#c122> or <owlapi:ontology:ont0#c319> or <owlapi:ontology:ont0#c471> or <owlapi:ontology:ont0#c475> or <owlapi:ontology:ont0#c490> or <owlapi:ontology:ont0#c492> or <owlapi:ontology:ont0#c496> or <owlapi:ontology:ont0#c497> or <owlapi:ontology:ont0#c82>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c261>
+    
+    
+Class: <owlapi:ontology:ont0#c168>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c169>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c215>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c279>
+    
+    
+Class: <owlapi:ontology:ont0#c16>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c174> or <owlapi:ontology:ont0#c403> or <owlapi:ontology:ont0#c441> or <owlapi:ontology:ont0#c590> or <owlapi:ontology:ont0#c591> or <owlapi:ontology:ont0#c615> or <owlapi:ontology:ont0#c616>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c261>
+    
+    
+Class: <owlapi:ontology:ont0#c170>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c193>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c130>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c233>
+    
+    
+Class: <owlapi:ontology:ont0#c171>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c454>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c454>
+    
+    
+Class: <owlapi:ontology:ont0#c172>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c55>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c55>
+    
+    
+Class: <owlapi:ontology:ont0#c173>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c174>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c16>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c450>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c354>
+    
+    
+Class: <owlapi:ontology:ont0#c175>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c165>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c176>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c177>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c178>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c273>
+    
+    
+Class: <owlapi:ontology:ont0#c178>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c179>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c184>
+    
+    
+Class: <owlapi:ontology:ont0#c17>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c156>
+    
+    
+Class: <owlapi:ontology:ont0#c180>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c624>
+    
+    
+Class: <owlapi:ontology:ont0#c181>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c235>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c182>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c48>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c183>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c184>
+    
+    
+Class: <owlapi:ontology:ont0#c184>
+
+    
+Class: <owlapi:ontology:ont0#c185>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c206>
+    
+    
+Class: <owlapi:ontology:ont0#c186>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c187>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c12> or <owlapi:ontology:ont0#c121> or <owlapi:ontology:ont0#c146> or <owlapi:ontology:ont0#c195> or <owlapi:ontology:ont0#c223> or <owlapi:ontology:ont0#c23> or <owlapi:ontology:ont0#c321> or <owlapi:ontology:ont0#c448> or <owlapi:ontology:ont0#c505> or <owlapi:ontology:ont0#c567> or <owlapi:ontology:ont0#c9>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c87>
+    
+    
+Class: <owlapi:ontology:ont0#c188>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c2> or <owlapi:ontology:ont0#c326> or <owlapi:ontology:ont0#c33> or <owlapi:ontology:ont0#c36> or <owlapi:ontology:ont0#c379> or <owlapi:ontology:ont0#c398> or <owlapi:ontology:ont0#c468> or <owlapi:ontology:ont0#c482> or <owlapi:ontology:ont0#c510> or <owlapi:ontology:ont0#c529> or <owlapi:ontology:ont0#c585> or <owlapi:ontology:ont0#c611>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>
+    
+    
+Class: <owlapi:ontology:ont0#c189>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c18>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c349> or <owlapi:ontology:ont0#c392> or <owlapi:ontology:ont0#c483> or <owlapi:ontology:ont0#c484> or <owlapi:ontology:ont0#c558> or <owlapi:ontology:ont0#c562>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c190>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c105> or <owlapi:ontology:ont0#c224> or <owlapi:ontology:ont0#c316> or <owlapi:ontology:ont0#c377> or <owlapi:ontology:ont0#c378> or <owlapi:ontology:ont0#c481> or <owlapi:ontology:ont0#c50> or <owlapi:ontology:ont0#c54> or <owlapi:ontology:ont0#c547> or <owlapi:ontology:ont0#c57> or <owlapi:ontology:ont0#c588> or <owlapi:ontology:ont0#c90>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c87>
+    
+    
+Class: <owlapi:ontology:ont0#c191>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c391>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c86>
+    
+    
+Class: <owlapi:ontology:ont0#c192>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c225> or <owlapi:ontology:ont0#c341> or <owlapi:ontology:ont0#c467>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>
+    
+    
+Class: <owlapi:ontology:ont0#c193>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c170> or <owlapi:ontology:ont0#c295>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c86>
+    
+    
+Class: <owlapi:ontology:ont0#c194>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c250> or <owlapi:ontology:ont0#c501> or <owlapi:ontology:ont0#c609>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c165>,
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c253>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c352>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c253>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c353>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c253>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c354>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c253>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c355>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c253>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c357>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c260>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c352>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c260>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c353>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c260>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c354>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c260>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c355>)),
+        not ((<owlapi:ontology:ont0#op0> some <owlapi:ontology:ont0#c260>)
+         and (<owlapi:ontology:ont0#op1> some <owlapi:ontology:ont0#c357>))
+    
+    
+Class: <owlapi:ontology:ont0#c195>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c624>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c196>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c445>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c197>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c198>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c218>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c311>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c199>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c19>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c1>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c107>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c200>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c201>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c185>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c185>
+    
+    
+Class: <owlapi:ontology:ont0#c202>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c59>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c59>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c203>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c204>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c205>
+    
+    
+Class: <owlapi:ontology:ont0#c205>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c206>
+    
+    
+Class: <owlapi:ontology:ont0#c206>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c579>
+    
+    
+Class: <owlapi:ontology:ont0#c207>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c48>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c208>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c233>
+    
+    
+Class: <owlapi:ontology:ont0#c209>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c233>
+    
+    
+Class: <owlapi:ontology:ont0#c20>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c306>
+    
+    
+Class: <owlapi:ontology:ont0#c210>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c603>
+    
+    
+Class: <owlapi:ontology:ont0#c211>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c157>
+    
+    
+Class: <owlapi:ontology:ont0#c212>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c232>
+    
+    
+Class: <owlapi:ontology:ont0#c213>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c232>
+    
+    
+Class: <owlapi:ontology:ont0#c214>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c138> or <owlapi:ontology:ont0#c500> or <owlapi:ontology:ont0#c621>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c216>
+    
+    
+Class: <owlapi:ontology:ont0#c215>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c110> or <owlapi:ontology:ont0#c169> or <owlapi:ontology:ont0#c347> or <owlapi:ontology:ont0#c4> or <owlapi:ontology:ont0#c43> or <owlapi:ontology:ont0#c453> or <owlapi:ontology:ont0#c568> or <owlapi:ontology:ont0#c610>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c216>
+    
+    
+Class: <owlapi:ontology:ont0#c216>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c214> or <owlapi:ontology:ont0#c215>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>
+    
+    
+Class: <owlapi:ontology:ont0#c217>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c430>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c133>
+    
+    
+Class: <owlapi:ontology:ont0#c218>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c198> or <owlapi:ontology:ont0#c25> or <owlapi:ontology:ont0#c325> or <owlapi:ontology:ont0#c344> or <owlapi:ontology:ont0#c345> or <owlapi:ontology:ont0#c98>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c220>
+    
+    
+Class: <owlapi:ontology:ont0#c219>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c21>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c220>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c111> or <owlapi:ontology:ont0#c114> or <owlapi:ontology:ont0#c218> or <owlapi:ontology:ont0#c226> or <owlapi:ontology:ont0#c48> or <owlapi:ontology:ont0#c59> or <owlapi:ontology:ont0#c60> or <owlapi:ontology:ont0#c600>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>
+    
+    
+Class: <owlapi:ontology:ont0#c221>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c222>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c103>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c273>
+    
+    
+Class: <owlapi:ontology:ont0#c223>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c134>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c224>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c559>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c291>
+    
+    
+Class: <owlapi:ontology:ont0#c225>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c192>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c358>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c226>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c376>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c220>
+    
+    
+Class: <owlapi:ontology:ont0#c227>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c228>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c624>
+    
+    
+Class: <owlapi:ontology:ont0#c229>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c327>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c22>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c230>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c177>
+    
+    
+Class: <owlapi:ontology:ont0#c231>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c165>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c254>
+    
+    
+Class: <owlapi:ontology:ont0#c232>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c233>
+    
+    
+Class: <owlapi:ontology:ont0#c233>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c238>
+    
+    
+Class: <owlapi:ontology:ont0#c234>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c140>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c235>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c237>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c506>
+    
+    
+Class: <owlapi:ontology:ont0#c236>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c237>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c506>
+    
+    
+Class: <owlapi:ontology:ont0#c237>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c238>
+    
+    
+Class: <owlapi:ontology:ont0#c238>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c579>
+    
+    
+Class: <owlapi:ontology:ont0#c239>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c185>
+    
+    
+Class: <owlapi:ontology:ont0#c23>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c134>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c240>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c241>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c232>
+    
+    
+Class: <owlapi:ontology:ont0#c242>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c243>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c244>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c245>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c111>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c246>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c232>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c247>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c248>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c607>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c249>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c24>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c354>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c250>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c194>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c185>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c185>
+    
+    
+Class: <owlapi:ontology:ont0#c251>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c125>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c290>
+    
+    
+Class: <owlapi:ontology:ont0#c252>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c17>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c253>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c254>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c143>
+    
+    
+Class: <owlapi:ontology:ont0#c254>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c255>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c256>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c257>
+    
+    
+Class: <owlapi:ontology:ont0#c257>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c258>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c259>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c25>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c218>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c260>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c559>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c389>
+    
+    
+Class: <owlapi:ontology:ont0#c261>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c16> or <owlapi:ontology:ont0#c160> or <owlapi:ontology:ont0#c165> or <owlapi:ontology:ont0#c166> or <owlapi:ontology:ont0#c167> or <owlapi:ontology:ont0#c430> or <owlapi:ontology:ont0#c86> or <owlapi:ontology:ont0#c87>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>
+    
+    
+Class: <owlapi:ontology:ont0#c262>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c543>
+    
+    
+Class: <owlapi:ontology:ont0#c263>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c603>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c185>
+    
+    
+Class: <owlapi:ontology:ont0#c264>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c543>
+    
+    
+Class: <owlapi:ontology:ont0#c265>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c543>
+    
+    
+Class: <owlapi:ontology:ont0#c266>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c400>
+    
+    
+Class: <owlapi:ontology:ont0#c267>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c603>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c157>
+    
+    
+Class: <owlapi:ontology:ont0#c268>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c351>
+    
+    
+Class: <owlapi:ontology:ont0#c269>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c26>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c176> or <owlapi:ontology:ont0#c199> or <owlapi:ontology:ont0#c300> or <owlapi:ontology:ont0#c323> or <owlapi:ontology:ont0#c324> or <owlapi:ontology:ont0#c397> or <owlapi:ontology:ont0#c41> or <owlapi:ontology:ont0#c411> or <owlapi:ontology:ont0#c428> or <owlapi:ontology:ont0#c434> or <owlapi:ontology:ont0#c570> or <owlapi:ontology:ont0#c571> or <owlapi:ontology:ont0#c586>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c85>
+    
+    
+Class: <owlapi:ontology:ont0#c270>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c260>
+    
+    
+Class: <owlapi:ontology:ont0#c271>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c272>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c137>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c273>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c178>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c156>, <owlapi:ontology:ont0#c157>, <owlapi:ontology:ont0#c158>, <owlapi:ontology:ont0#c177>, <owlapi:ontology:ont0#c526>
+    
+    
+Class: <owlapi:ontology:ont0#c274>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c114>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c560>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c560>
+    
+    
+Class: <owlapi:ontology:ont0#c275>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c288>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c185>
+    
+    
+Class: <owlapi:ontology:ont0#c276>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c185>
+    
+    
+Class: <owlapi:ontology:ont0#c277>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c233>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c278>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c279>
+    
+    
+Class: <owlapi:ontology:ont0#c279>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c27>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c210>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c280>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c281>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c134>
+    
+    
+Class: <owlapi:ontology:ont0#c282>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c156>
+    
+    
+Class: <owlapi:ontology:ont0#c283>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c93>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c280>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c284>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c107>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c285>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c107>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c286>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c287>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c288>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c134>
+    
+    
+Class: <owlapi:ontology:ont0#c289>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c28>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c101> or <owlapi:ontology:ont0#c141> or <owlapi:ontology:ont0#c147> or <owlapi:ontology:ont0#c154> or <owlapi:ontology:ont0#c171> or <owlapi:ontology:ont0#c172> or <owlapi:ontology:ont0#c294> or <owlapi:ontology:ont0#c297> or <owlapi:ontology:ont0#c301> or <owlapi:ontology:ont0#c302> or <owlapi:ontology:ont0#c313> or <owlapi:ontology:ont0#c330> or <owlapi:ontology:ont0#c396> or <owlapi:ontology:ont0#c399> or <owlapi:ontology:ont0#c479> or <owlapi:ontology:ont0#c513> or <owlapi:ontology:ont0#c527> or <owlapi:ontology:ont0#c53> or <owlapi:ontology:ont0#c537> or <owlapi:ontology:ont0#c593> or <owlapi:ontology:ont0#c608> or <owlapi:ontology:ont0#c613> or <owlapi:ontology:ont0#c69> or <owlapi:ontology:ont0#c7> or <owlapi:ontology:ont0#c84>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c290>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c291>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c292>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c293>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c125>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c294>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c304>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c304>
+    
+    
+Class: <owlapi:ontology:ont0#c295>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c193>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c523>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c257>
+    
+    
+Class: <owlapi:ontology:ont0#c296>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c206>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c297>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c414>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c161>
+    
+    
+Class: <owlapi:ontology:ont0#c298>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c299>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c355>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c29>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c111>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c2>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c578>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c300>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c301>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c389>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c304>
+    
+    
+Class: <owlapi:ontology:ont0#c302>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c304>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c318>
+    
+    
+Class: <owlapi:ontology:ont0#c303>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c152>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c152>
+    
+    
+Class: <owlapi:ontology:ont0#c304>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c177>
+    
+    
+Class: <owlapi:ontology:ont0#c305>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c206>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c206>
+    
+    
+Class: <owlapi:ontology:ont0#c306>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c311>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c415>
+    
+    
+Class: <owlapi:ontology:ont0#c307>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c311>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c415>
+    
+    
+Class: <owlapi:ontology:ont0#c308>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c311>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c415>
+    
+    
+Class: <owlapi:ontology:ont0#c309>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c311>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c415>
+    
+    
+Class: <owlapi:ontology:ont0#c30>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c293> or <owlapi:ontology:ont0#c298> or <owlapi:ontology:ont0#c372> or <owlapi:ontology:ont0#c373> or <owlapi:ontology:ont0#c393> or <owlapi:ontology:ont0#c395> or <owlapi:ontology:ont0#c462> or <owlapi:ontology:ont0#c480> or <owlapi:ontology:ont0#c520> or <owlapi:ontology:ont0#c528> or <owlapi:ontology:ont0#c548>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c310>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c107>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c311>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c38>
+    
+    
+Class: <owlapi:ontology:ont0#c312>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c578>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c313>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c540>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c304>
+    
+    
+Class: <owlapi:ontology:ont0#c314>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c260>
+    
+    
+Class: <owlapi:ontology:ont0#c315>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c210>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c316>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c311>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c543>
+    
+    
+Class: <owlapi:ontology:ont0#c317>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c318>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c258>
+    
+    
+Class: <owlapi:ontology:ont0#c319>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c31>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c60>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c60>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c320>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c430>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c443>
+    
+    
+Class: <owlapi:ontology:ont0#c321>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c353>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c322>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c236>
+    
+    
+Class: <owlapi:ontology:ont0#c323>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c306>
+    
+    
+Class: <owlapi:ontology:ont0#c324>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c325>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c218>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c326>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c598>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c327>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c328>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c329>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c38>
+    
+    
+Class: <owlapi:ontology:ont0#c32>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c330>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c55>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c161>
+    
+    
+Class: <owlapi:ontology:ont0#c331>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c332>
+    
+    
+Class: <owlapi:ontology:ont0#c332>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c268>
+    
+    
+Class: <owlapi:ontology:ont0#c333>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c268>
+    
+    
+Class: <owlapi:ontology:ont0#c334>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c335>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c336>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c268>
+    
+    
+Class: <owlapi:ontology:ont0#c337>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c445>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c625>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c338>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c157>
+    
+    
+Class: <owlapi:ontology:ont0#c339>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c33>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c340>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c341>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c192>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c288>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c342>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c280>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c343>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c344>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c218>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c345>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c218>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c346>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c603>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c177>
+    
+    
+Class: <owlapi:ontology:ont0#c347>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c215>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c381>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c348>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c349>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c18>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c151>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c560>
+    
+    
+Class: <owlapi:ontology:ont0#c34>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c350>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c351>
+    
+    
+Class: <owlapi:ontology:ont0#c351>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c352>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c353>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c354>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c355>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c356>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c357>
+    
+    
+Class: <owlapi:ontology:ont0#c357>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c358>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c183>
+    
+    
+Class: <owlapi:ontology:ont0#c359>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c35>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c360>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c361>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c362>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c38>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c352>
+    
+    
+Class: <owlapi:ontology:ont0#c363>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c38>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c353>
+    
+    
+Class: <owlapi:ontology:ont0#c364>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c38>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c354>
+    
+    
+Class: <owlapi:ontology:ont0#c365>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c38>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c355>
+    
+    
+Class: <owlapi:ontology:ont0#c366>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c367>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c368>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c124>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c369>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c36>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c598>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c370>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c357>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c371>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c96>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c372>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c89>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c373>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c374>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c381>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c375>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c376>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c226>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c226>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c134>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c228>
+    
+    
+Class: <owlapi:ontology:ont0#c377>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c126>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c624>
+    
+    
+Class: <owlapi:ontology:ont0#c378>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c126>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c44>
+    
+    
+Class: <owlapi:ontology:ont0#c379>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c311>
+    
+    
+Class: <owlapi:ontology:ont0#c37>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c380>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c381>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c382>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c524>
+    
+    
+Class: <owlapi:ontology:ont0#c383>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c583>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c384>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c136>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c579>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c132>
+    
+    
+Class: <owlapi:ontology:ont0#c385>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c386>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c232>
+    
+    
+Class: <owlapi:ontology:ont0#c387>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c388>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c306>
+    
+    
+Class: <owlapi:ontology:ont0#c389>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c559>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c260>
+    
+    
+Class: <owlapi:ontology:ont0#c38>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c183>
+    
+    
+Class: <owlapi:ontology:ont0#c390>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c51>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c51>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c281>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c391>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c191>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c191>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c125>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c132>
+    
+    
+Class: <owlapi:ontology:ont0#c392>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c18>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c151>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c523>
+    
+    
+Class: <owlapi:ontology:ont0#c393>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c394>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c395>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c89>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c396>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c118>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c161>
+    
+    
+Class: <owlapi:ontology:ont0#c397>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c398>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c598>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c311>
+    
+    
+Class: <owlapi:ontology:ont0#c399>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c406>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c612>
+    
+    
+Class: <owlapi:ontology:ont0#c39>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c232>
+    
+    
+Class: <owlapi:ontology:ont0#c3>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c132>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c131>
+    
+    
+Class: <owlapi:ontology:ont0#c400>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c543>
+    
+    
+Class: <owlapi:ontology:ont0#c401>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c402>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c240>
+    
+    
+Class: <owlapi:ontology:ont0#c403>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c16>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c450>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c404>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c430>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c126>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c624>
+    
+    
+Class: <owlapi:ontology:ont0#c405>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c111>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c406>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c44>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c78>, <owlapi:ontology:ont0#c88>
+    
+    
+Class: <owlapi:ontology:ont0#c407>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c408>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c352>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c409>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c40>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c165>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c410>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c353>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c411>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c412>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c413>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c133>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c414>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c415>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c311>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c306>, <owlapi:ontology:ont0#c307>, <owlapi:ontology:ont0#c308>, <owlapi:ontology:ont0#c309>, <owlapi:ontology:ont0#c523>
+    
+    
+Class: <owlapi:ontology:ont0#c416>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c417>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c418>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c419>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c278>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c39>
+    
+    
+Class: <owlapi:ontology:ont0#c41>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c420>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c421>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c260>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c422>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c423>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c89>
+    
+    
+Class: <owlapi:ontology:ont0#c424>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c232>
+    
+    
+Class: <owlapi:ontology:ont0#c425>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c622>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c126>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c426>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c17>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c427>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c17>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c428>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c306>
+    
+    
+Class: <owlapi:ontology:ont0#c429>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c42>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c276>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c430>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c217> or <owlapi:ontology:ont0#c320> or <owlapi:ontology:ont0#c404> or <owlapi:ontology:ont0#c516> or <owlapi:ontology:ont0#c52> or <owlapi:ontology:ont0#c566> or <owlapi:ontology:ont0#c617> or <owlapi:ontology:ont0#c618>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c261>
+    
+    
+Class: <owlapi:ontology:ont0#c431>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c432>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c165>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c381>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c177>
+    
+    
+Class: <owlapi:ontology:ont0#c433>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c109>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c524>
+    
+    
+Class: <owlapi:ontology:ont0#c434>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c435>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c280>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c206>
+    
+    
+Class: <owlapi:ontology:ont0#c436>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c603>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c437>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c603>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c438>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c107>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c439>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c578>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c354>
+    
+    
+Class: <owlapi:ontology:ont0#c43>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c215>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c327>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c440>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c441>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c16>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c278>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c442>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c443>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c575>
+    
+    
+Class: <owlapi:ontology:ont0#c444>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c603>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c445>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c14> or <owlapi:ontology:ont0#c196> or <owlapi:ontology:ont0#c337> or <owlapi:ontology:ont0#c599>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>
+    
+    
+Class: <owlapi:ontology:ont0#c446>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c114>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c447>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c268>
+    
+    
+Class: <owlapi:ontology:ont0#c448>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c624>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c449>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c93>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c44>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c450>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c451>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c578>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c452>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c91>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c278>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c134>
+    
+    
+Class: <owlapi:ontology:ont0#c453>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c215>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c454>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c278>
+    
+    
+Class: <owlapi:ontology:ont0#c455>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c456>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c457>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c523>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c306>
+    
+    
+Class: <owlapi:ontology:ont0#c458>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c523>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c459>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c523>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c45>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c311>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c460>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c523>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c461>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c96>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c462>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c463>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c464>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c96>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c465>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c114>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c523>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c523>
+    
+    
+Class: <owlapi:ontology:ont0#c466>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c91>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c280>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c467>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c192>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c126>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c468>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c469>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c46>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c311>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c470>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c471>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c472>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c473>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c474>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c475>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c260>
+    
+    
+Class: <owlapi:ontology:ont0#c476>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c477>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c281>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c478>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c479>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c118>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c415>
+    
+    
+Class: <owlapi:ontology:ont0#c47>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c480>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c481>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c559>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c123>
+    
+    
+Class: <owlapi:ontology:ont0#c482>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c483>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c18>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c152>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c265>
+    
+    
+Class: <owlapi:ontology:ont0#c484>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c18>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c280>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c485>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c598>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c486>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c598>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c487>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c578>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c488>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c114>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c281>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c489>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c86>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c126>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c238>
+    
+    
+Class: <owlapi:ontology:ont0#c48>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c149> or <owlapi:ontology:ont0#c182> or <owlapi:ontology:ont0#c207> or <owlapi:ontology:ont0#c507> or <owlapi:ontology:ont0#c532> or <owlapi:ontology:ont0#c604>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c220>
+    
+    
+Class: <owlapi:ontology:ont0#c490>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c491>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c114>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c492>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c493>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c306>
+    
+    
+Class: <owlapi:ontology:ont0#c494>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c495>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c268>
+    
+    
+Class: <owlapi:ontology:ont0#c496>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c497>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c498>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c164>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c129>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c290>
+    
+    
+Class: <owlapi:ontology:ont0#c499>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c281>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c49>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c186> or <owlapi:ontology:ont0#c248> or <owlapi:ontology:ont0#c27> or <owlapi:ontology:ont0#c315> or <owlapi:ontology:ont0#c534> or <owlapi:ontology:ont0#c535> or <owlapi:ontology:ont0#c549> or <owlapi:ontology:ont0#c557> or <owlapi:ontology:ont0#c569> or <owlapi:ontology:ont0#c589> or <owlapi:ontology:ont0#c72>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c4>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c215>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c500>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c214>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c381>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c501>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c194>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c276>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c502>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c503>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c164>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c127>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c290>
+    
+    
+Class: <owlapi:ontology:ont0#c504>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c505>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c624>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c506>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c237>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c235>, <owlapi:ontology:ont0#c236>
+    
+    
+Class: <owlapi:ontology:ont0#c507>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c48>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c282>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c508>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c523>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c509>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c50>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c311>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c510>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c311>
+    
+    
+Class: <owlapi:ontology:ont0#c511>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c290>
+    
+    
+Class: <owlapi:ontology:ont0#c512>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c165>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c513>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c55>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c415>
+    
+    
+Class: <owlapi:ontology:ont0#c514>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c114>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c515>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c178>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c260>
+    
+    
+Class: <owlapi:ontology:ont0#c516>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c430>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c126>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c44>
+    
+    
+Class: <owlapi:ontology:ont0#c517>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c233>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c518>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c524>
+    
+    
+Class: <owlapi:ontology:ont0#c519>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c526>
+    
+    
+Class: <owlapi:ontology:ont0#c51>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c390>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c520>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c89>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c521>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c522>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c113>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c306>
+    
+    
+Class: <owlapi:ontology:ont0#c523>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c311>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c415>
+    
+    
+Class: <owlapi:ontology:ont0#c524>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c156>
+    
+    
+Class: <owlapi:ontology:ont0#c525>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c165>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c259>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c559>
+    
+    
+Class: <owlapi:ontology:ont0#c526>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c178>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c273>
+    
+    
+Class: <owlapi:ontology:ont0#c527>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c145>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c431>
+    
+    
+Class: <owlapi:ontology:ont0#c528>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c529>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c443>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c52>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c430>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c624>
+    
+    
+Class: <owlapi:ontology:ont0#c530>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c531>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c140>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c158>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c238>
+    
+    
+Class: <owlapi:ontology:ont0#c532>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c48>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c524>
+    
+    
+Class: <owlapi:ontology:ont0#c533>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c96>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c534>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c607>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c39>
+    
+    
+Class: <owlapi:ontology:ont0#c535>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c39>
+    
+    
+Class: <owlapi:ontology:ont0#c536>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c537>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c273>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c506>
+    
+    
+Class: <owlapi:ontology:ont0#c538>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c583>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c539>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c10> or <owlapi:ontology:ont0#c104> or <owlapi:ontology:ont0#c189> or <owlapi:ontology:ont0#c200> or <owlapi:ontology:ont0#c292> or <owlapi:ontology:ont0#c312> or <owlapi:ontology:ont0#c359> or <owlapi:ontology:ont0#c451> or <owlapi:ontology:ont0#c463> or <owlapi:ontology:ont0#c47> or <owlapi:ontology:ont0#c485> or <owlapi:ontology:ont0#c486> or <owlapi:ontology:ont0#c487> or <owlapi:ontology:ont0#c565> or <owlapi:ontology:ont0#c58> or <owlapi:ontology:ont0#c606>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>
+    
+    
+Class: <owlapi:ontology:ont0#c53>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c564>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c161>
+    
+    
+Class: <owlapi:ontology:ont0#c540>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c259>
+    
+    
+Class: <owlapi:ontology:ont0#c541>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c107>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c542>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c107>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c543>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c287>
+    
+    
+Class: <owlapi:ontology:ont0#c544>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c545>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c206>
+    
+    
+Class: <owlapi:ontology:ont0#c546>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c282>
+    
+    
+Class: <owlapi:ontology:ont0#c547>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c276>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c548>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c30>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c549>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c54>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c130>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c44>
+    
+    
+Class: <owlapi:ontology:ont0#c550>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c124>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c551>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c137>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c552>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c290>
+    
+    
+Class: <owlapi:ontology:ont0#c553>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c524>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c554>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c260>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c555>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c583>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c556>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c400>
+    
+    
+Class: <owlapi:ontology:ont0#c557>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c558>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c18>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c152>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c523>
+    
+    
+Class: <owlapi:ontology:ont0#c559>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c55>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c524>
+    
+    
+Class: <owlapi:ontology:ont0#c560>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c543>
+    
+    
+Class: <owlapi:ontology:ont0#c561>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c136>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c184>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c132>
+    
+    
+Class: <owlapi:ontology:ont0#c562>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c18>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c594>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c563>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c564>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c565>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c566>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c430>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c443>
+    
+    
+Class: <owlapi:ontology:ont0#c567>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c354>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c568>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c215>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c569>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c233>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c132>
+    
+    
+Class: <owlapi:ontology:ont0#c56>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c622>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c351>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c570>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c571>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c572>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c91>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c278>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c573>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c625>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c574>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c177>
+    
+    
+Class: <owlapi:ontology:ont0#c575>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c288>
+    
+    
+Class: <owlapi:ontology:ont0#c576>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c132>
+    
+    
+Class: <owlapi:ontology:ont0#c577>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c124>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c578>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c575>
+    
+    
+Class: <owlapi:ontology:ont0#c579>
+
+    
+Class: <owlapi:ontology:ont0#c57>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c254>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c580>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c581>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c582>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c306>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c583>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c238>
+    
+    
+Class: <owlapi:ontology:ont0#c584>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c93>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c259>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c259>
+    
+    
+Class: <owlapi:ontology:ont0#c585>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c578>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c586>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c26>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c281>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c329>
+    
+    
+Class: <owlapi:ontology:ont0#c587>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c114>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c281>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c543>
+    
+    
+Class: <owlapi:ontology:ont0#c588>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c256>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c306>
+    
+    
+Class: <owlapi:ontology:ont0#c589>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c607>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c58>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c598>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c590>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c16>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c450>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c352>
+    
+    
+Class: <owlapi:ontology:ont0#c591>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c16>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c450>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c353>
+    
+    
+Class: <owlapi:ontology:ont0#c592>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c68>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c593>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c304>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c540>
+    
+    
+Class: <owlapi:ontology:ont0#c594>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c179>
+    
+    
+Class: <owlapi:ontology:ont0#c595>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c17>
+    
+    
+Class: <owlapi:ontology:ont0#c596>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c78>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c126>
+    
+    
+Class: <owlapi:ontology:ont0#c597>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c575>
+    
+    
+Class: <owlapi:ontology:ont0#c598>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c575>
+    
+    
+Class: <owlapi:ontology:ont0#c599>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c445>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c625>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c59>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c202>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c220>
+    
+    
+Class: <owlapi:ontology:ont0#c5>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c107>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c308>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c309>
+    
+    
+Class: <owlapi:ontology:ont0#c600>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c116> or <owlapi:ontology:ont0#c119> or <owlapi:ontology:ont0#c197> or <owlapi:ontology:ont0#c203> or <owlapi:ontology:ont0#c247> or <owlapi:ontology:ont0#c269> or <owlapi:ontology:ont0#c303> or <owlapi:ontology:ont0#c32> or <owlapi:ontology:ont0#c34> or <owlapi:ontology:ont0#c380> or <owlapi:ontology:ont0#c388> or <owlapi:ontology:ont0#c418> or <owlapi:ontology:ont0#c457> or <owlapi:ontology:ont0#c458> or <owlapi:ontology:ont0#c459> or <owlapi:ontology:ont0#c460> or <owlapi:ontology:ont0#c477> or <owlapi:ontology:ont0#c499> or <owlapi:ontology:ont0#c502> or <owlapi:ontology:ont0#c605> or <owlapi:ontology:ont0#c74>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c220>
+    
+    
+Class: <owlapi:ontology:ont0#c601>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c168> or <owlapi:ontology:ont0#c19> or <owlapi:ontology:ont0#c219> or <owlapi:ontology:ont0#c24> or <owlapi:ontology:ont0#c271> or <owlapi:ontology:ont0#c286> or <owlapi:ontology:ont0#c289> or <owlapi:ontology:ont0#c299> or <owlapi:ontology:ont0#c317> or <owlapi:ontology:ont0#c362> or <owlapi:ontology:ont0#c363> or <owlapi:ontology:ont0#c364> or <owlapi:ontology:ont0#c365> or <owlapi:ontology:ont0#c369> or <owlapi:ontology:ont0#c370> or <owlapi:ontology:ont0#c408> or <owlapi:ontology:ont0#c410> or <owlapi:ontology:ont0#c416> or <owlapi:ontology:ont0#c417> or <owlapi:ontology:ont0#c442> or <owlapi:ontology:ont0#c45> or <owlapi:ontology:ont0#c46> or <owlapi:ontology:ont0#c469> or <owlapi:ontology:ont0#c470> or <owlapi:ontology:ont0#c472> or <owlapi:ontology:ont0#c473> or <owlapi:ontology:ont0#c474> or <owlapi:ontology:ont0#c476> or <owlapi:ontology:ont0#c493> or <owlapi:ontology:ont0#c494> or <owlapi:ontology:ont0#c518> or <owlapi:ontology:ont0#c521> or <owlapi:ontology:ont0#c544> or <owlapi:ontology:ont0#c546> or <owlapi:ontology:ont0#c553> or <owlapi:ontology:ont0#c581> or <owlapi:ontology:ont0#c582> or <owlapi:ontology:ont0#c592> or <owlapi:ontology:ont0#c62> or <owlapi:ontology:ont0#c620> or <owlapi:ontology:ont0#c70> or <owlapi:ontology:ont0#c8> or <owlapi:ontology:ont0#c94> or <owlapi:ontology:ont0#c95>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c85>
+    
+    
+Class: <owlapi:ontology:ont0#c602>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c91>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c157>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c156>
+    
+    
+Class: <owlapi:ontology:ont0#c603>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c233>
+    
+    
+Class: <owlapi:ontology:ont0#c604>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c48>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c308>
+    
+    
+Class: <owlapi:ontology:ont0#c605>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c606>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c539>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c545>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c607>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c238>
+    
+    
+Class: <owlapi:ontology:ont0#c608>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c420>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c161>
+    
+    
+Class: <owlapi:ontology:ont0#c609>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c194>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c235>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c236>
+    
+    
+Class: <owlapi:ontology:ont0#c60>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c31>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c220>
+    
+    
+Class: <owlapi:ontology:ont0#c610>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c215>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c255>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
+Class: <owlapi:ontology:ont0#c611>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c188>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c578>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c311>
+    
+    
+Class: <owlapi:ontology:ont0#c612>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c613>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c20>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c161>
+    
+    
+Class: <owlapi:ontology:ont0#c614>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c114>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c307>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c615>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c16>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c278>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c616>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c16>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c278>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c545>
+    
+    
+Class: <owlapi:ontology:ont0#c617>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c430>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c624>
+    
+    
+Class: <owlapi:ontology:ont0#c618>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c430>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c603>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c180>
+    
+    
+Class: <owlapi:ontology:ont0#c619>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c137>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c185>
+    
+    
+Class: <owlapi:ontology:ont0#c61>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c287>
+    
+    
+Class: <owlapi:ontology:ont0#c620>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c130>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c233>
+    
+    
+Class: <owlapi:ontology:ont0#c621>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c214>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c213>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c622>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c425> or <owlapi:ontology:ont0#c56>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c86>
+    
+    
+Class: <owlapi:ontology:ont0#c623>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c235>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c624>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c183>
+    
+    
+Class: <owlapi:ontology:ont0#c625>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c624>
+    
+    
+Class: <owlapi:ontology:ont0#c62>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c276>
+    
+    
+Class: <owlapi:ontology:ont0#c63>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c443>
+    
+    
+Class: <owlapi:ontology:ont0#c64>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c91>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c157>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c381>
+    
+    
+Class: <owlapi:ontology:ont0#c65>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c93>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c89>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c89>
+    
+    
+Class: <owlapi:ontology:ont0#c66>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c578>
+    
+    
+Class: <owlapi:ontology:ont0#c67>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c254>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c143>
+    
+    
+Class: <owlapi:ontology:ont0#c68>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c38>
+    
+    
+Class: <owlapi:ontology:ont0#c69>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c3>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c3>
+    
+    
+Class: <owlapi:ontology:ont0#c6>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c212>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c89>
+    
+    
+Class: <owlapi:ontology:ont0#c70>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c524>
+    
+    
+Class: <owlapi:ontology:ont0#c71>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c72>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c49>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c73>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c594>
+    
+    
+Class: <owlapi:ontology:ont0#c74>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c600>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c329>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c307>
+    
+    
+Class: <owlapi:ontology:ont0#c75>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c139>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c39>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c185>
+    
+    
+Class: <owlapi:ontology:ont0#c76>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c166>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c253>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c237>
+    
+    
+Class: <owlapi:ontology:ont0#c77>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c160>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c278>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c78>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c44>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c406>
+    
+    
+Class: <owlapi:ontology:ont0#c79>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c575>
+    
+    
+Class: <owlapi:ontology:ont0#c7>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c304>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c389>
+    
+    
+Class: <owlapi:ontology:ont0#c80>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c625>
+    
+    
+Class: <owlapi:ontology:ont0#c81>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c140>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c279>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c280>
+    
+    
+Class: <owlapi:ontology:ont0#c82>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c167>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c237>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c253>
+    
+    
+Class: <owlapi:ontology:ont0#c83>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c163>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c625>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c89>
+    
+    
+Class: <owlapi:ontology:ont0#c84>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c28>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c161>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c161>
+    
+    
+Class: <owlapi:ontology:ont0#c85>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c109> or <owlapi:ontology:ont0#c113> or <owlapi:ontology:ont0#c26> or <owlapi:ontology:ont0#c601>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>
+    
+    
+Class: <owlapi:ontology:ont0#c86>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c191> or <owlapi:ontology:ont0#c193> or <owlapi:ontology:ont0#c489> or <owlapi:ontology:ont0#c622>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c261>
+    
+    
+Class: <owlapi:ontology:ont0#c87>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c187> or <owlapi:ontology:ont0#c190>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c261>
+    
+    
+Class: <owlapi:ontology:ont0#c88>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c44>
+    
+    DisjointWith: 
+        <owlapi:ontology:ont0#c406>
+    
+    
+Class: <owlapi:ontology:ont0#c89>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c279>
+    
+    
+Class: <owlapi:ontology:ont0#c8>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c311>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c90>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c190>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c311>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c281>
+    
+    
+Class: <owlapi:ontology:ont0#c91>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c452> or <owlapi:ontology:ont0#c466> or <owlapi:ontology:ont0#c572> or <owlapi:ontology:ont0#c602> or <owlapi:ontology:ont0#c64>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c92>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c135>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c233>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c68>
+    
+    
+Class: <owlapi:ontology:ont0#c93>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c108> or <owlapi:ontology:ont0#c283> or <owlapi:ontology:ont0#c449> or <owlapi:ontology:ont0#c584> or <owlapi:ontology:ont0#c65>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c94>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c212>
+    
+    
+Class: <owlapi:ontology:ont0#c95>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c601>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c309>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c213>
+    
+    
+Class: <owlapi:ontology:ont0#c96>
+
+    EquivalentTo: 
+        <owlapi:ontology:ont0#c137> or <owlapi:ontology:ont0#c371> or <owlapi:ontology:ont0#c461> or <owlapi:ontology:ont0#c464> or <owlapi:ontology:ont0#c533>
+    
+    SubClassOf: 
+        <owlapi:ontology:ont0#c159>
+    
+    
+Class: <owlapi:ontology:ont0#c97>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c358>
+    
+    
+Class: <owlapi:ontology:ont0#c98>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c218>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c80>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c228>
+    
+    
+Class: <owlapi:ontology:ont0#c99>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c287>
+    
+    
+Class: <owlapi:ontology:ont0#c9>
+
+    SubClassOf: 
+        <owlapi:ontology:ont0#c187>,
+        <owlapi:ontology:ont0#op0> only <owlapi:ontology:ont0#c352>,
+        <owlapi:ontology:ont0#op1> only <owlapi:ontology:ont0#c255>
+    
+    
