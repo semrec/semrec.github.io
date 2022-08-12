@@ -114,18 +114,19 @@ membership, type prediction, and link prediction). We will decide on this aspect
 based on the submissions we get.
 <ul>
 <li>Task-1.
+<p>We expect a detailed description of the ontology along with the analysis of the reasoning performance, the workarounds, if any, that were used to make the ontology less challenging (for example, dropping of a few axioms, redesigning the ontology, etc.), and the (potential) applications in which the ontology could be used. </p>
 To generate the leaderboard, the submitted ontologies will be run on some
 of the traditional description logic reasoners such as Konclude, ELK, and Openllet
 . We will use reasoning (classification) time and the memory consumed as the primary metrics. We will use a timeout value of 6 hours,
 and the limit on the memory will be 96 GB. </li>
 <li>Task-2.
 <ul>
-<li>For Task 3, we provide an <a  class="links" href="https://github.com/semrec/semrec.github.io" target="_blank" rel="noreferrer">eval.py</a> file for the 
+<li>To generate the leaderboard, the neural-symbolic reasoners will be
+provided with training, validation, and test datasets. We provide an <a  class="links" href="https://github.com/semrec/semrec.github.io" target="_blank" rel="noreferrer">eval.py</a> file for the 
 subsumption task. This is provided only to give an idea of the kind of submission we expect from the participants. Participants are requested to make the 
 changes mentioned in the file to evaluate it on their embeddings for the supported reasoning task (e.g., class subsumption, class membership, etc). 
-We would require the class embeddings of your model along with a readme on the changes made on the evaluation file and how to use it. 
-We plan to evaluate the submitted systems on a Linux-based GPU server.
-The participants will
+We would require the class embeddings of your model along with a readme on the changes made on the evaluation file and how to use it. We plan to evaluate the submitted systems on a Linux-based GPU server.</p></li>
+ The participants will
 include all the results in the submitted papers and provide their trained
 models/embeddings. We will further be evaluating the provided models on
 another small test dataset. The evaluation metrics will be reasoning time,
