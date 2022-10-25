@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SemREC'22 Evaluations </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <div>
+            <h1 id="site-title" ><span class="color">Sem</span>antic <span class="color">R</span>easoning <span class="color">E</span>valuation <span class="color">C</span>hallenge (<span class="color">SemREC</span>)</h1>
+            <p id="about-site"><a class="top-links" href="https://iswc2022.semanticweb.org/"  target="_blank" rel="noreferrer">21st International Semantic Web Conference (ISWC 2022)</a></p>
+        </div>
+    </header>
+
+    <hr style="color:#f45d06;">
+
+    <div id="content">
+
+        <main>
+            <article id="blog-content">
+
+
+<p>For task 1, all our evaluations ran on a server with an AMD Ryzen Threadripper 2990WX
+32-Core Processor and 128GB of RAM. The server ran on a 5.3.0-46-generic
+#38 18.04.1-Ubuntu SMP operating system. We use Java 1.8 and OWL API
+5.1.11 in the experiments. We set the heap space to 24GB.  The time-out was set to 30 minutes. We
+report the average time taken in 2 independent runs for the classification task.</p>
+
+<h3 id="ref">Task-1</h3>
+We got 2 submissions in this category (arranged in the order of ranking). We evaluated each ontology in terms of the time-taken(in seconds) by different OWL 2 DL reasoners (HermiT 1.4.5.456, JFact 5.0.05, Konclude 0.7.0, Openllet 2.6.46
+, and Pellet 2.3.6). <br>LE (Loading Error), PE (Parsing Error), ME (Memory Error), TO (Time-out)
+                <table id="characteristics_table">
+				     <b><tr>
+                        <b><td> <b>Submissions </b><td> <b>Submitted Ontologies </b></td><td> <b>Expressivity </b></td> <td> <b>Total Axioms Count </b></td><td> <b>Logical Axioms Count </b></td> <td> <b>Openllet</b></td><td> <b>Konclude </b></td></b>
+                        
+                    </tr> </b>
+               					<tr>
+                        <b><td rowspan="2">FIBO</td><td>FIBO (Prod)</td><td>SROIQV(D)</td><td>90186</td><td>50121</td><td>10.800</td><td>ME</td></b>  
+                    </tr>
+					<tr>
+                        <td>FIBO (Dev)</td><td>SROIQV(D)</td><td>98810</td><td>53591</td><td>28800</td><td>ME</td></b>  
+                    </tr>
+					    
+					    <tr>
+                        <b> <td rowspan="8">BAALL</td><td>FOD_Dish_all</td><td>SHIF(D)</td><td></td><td></td><td>TO</td><td>0.050</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>FOD_Small_all</td><td>SHF(D)</td><td></td><td></td><td>Null Pointer Exception</td><td>0.030</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>Ingredient_down</td><td>SROIQV(D)</td><td></td><td></td><td>195.20</td><td>0.002</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>Ingredient_i032to001</td><td>SROIQV(D)</td><td></td><td></td><td>130.23</td><td>0.002</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>FOD_Product_all</td><td>SHIF(D)</td><td></td><td></td><td>Null Pointer Exception</td><td>0.048</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>FOD_Small_i032to001</td><td>SROIQV(D)</td><td></td><td></td><td>Null Pointer Exception</td><td>0.002</td></b>
+                        
+                    </tr>
+					  </tr>
+					    <tr>
+                        <b><td>Ingredient_i016to001</td><td>SROIQV(D)</td><td></td><td></td><td>0.13</td><td>0.002</td></b>
+                        
+                    </tr>
+					    <tr>
+                        <b><td>Ingredient_i064to001</td><td>SROIQV(D)</td><td></td><td></td><td>0.14</td><td>0.002</td></b>
+                        
+                    </tr>
+
+                </table>
+				
+				
+
+<h3 id="ref">Task-2</h3>
+Results of the submitted Neuro-symbolic reasoner: EmELvar. Test ontologies are available <a class="links" href="https://github.com/semrec/semrec.github.io/tree/main/Task%203%20_%20Datasets"  target="_blank" rel="noreferrer">here</a>.
+                <table id="characteristics_table">
+				     <tr>
+                        <td> <b>Test Ontologies </b></td><td><b>Top1</b></td><td> <b>Top10</b></td><td> <b>Top100</b></td><td> <b>Median</b></td><td> <b>90th Percentile</b></td>
+                    </tr> 
+					    <tr>
+                        <td>OWL2EL-1</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td>
+                        
+                    </tr>                   
+					    <tr>
+                        <td>OWL2EL-2</td><td>0</td><td>0</td><td>0</td><td>35028</td><td>92741</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2EL-3</td><td>0.08</td><td>0.14</td><td>0.15</td><td>49430</td><td>247953</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2EL-4</td><td>0</td><td>0</td><td>0.4</td><td>92</td><td>227</td>
+                        
+                    </tr>
+					    <tr>
+                        <td>OWL2EL-5</td><td>0</td><td>0.07</td><td>0.4</td><td>112.5</td><td>287</td>
+                        
+                    </tr>
+                </table>
+<br><hr style="color:#f45d06"><br>
+
+
+</body>
+</html>
